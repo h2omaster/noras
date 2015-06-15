@@ -24,6 +24,10 @@
 ================================================== */
 
 
+.icon-box > img {
+	width: 20%;
+}
+
 .navbar-brand > img {
 	margin-top: -15px;
 	width: 50%}
@@ -113,7 +117,7 @@ ul{
 ================================================== */
 
 body, p{
-	font-family: 'Droid Serif', serif;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif
 	font-weight: 400; 
 	font-size: 14px;
 	line-height: 20px;
