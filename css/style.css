@@ -19,18 +19,14 @@
 	font-style: normal;
 }
 /*font-family: 'Cabin Condensed', sans-serif;*/
-/*html *
-{
-   
-   font-family: Folio Light !important;
-}*/
+@font-face {
+	font-family: 'folio';
+	src: url('../fonts/folio-light-webfont.eot');
+	src: local('folio-light-webfont'), local('folio-light-webfont'), url('../fonts/folio-light-webfont.woff') format('truetype');
+	}
 /* Global styles
 ================================================== */
 
-
-.icon-box > img {
-	width: 20%;
-}
 
 .navbar-brand > img {
 	margin-top: -15px;
@@ -121,14 +117,14 @@ ul{
 ================================================== */
 
 body, p{
-	font-family:"Folio Light";
+	font-family: 'folio';
 	font-weight: 400; 
 	font-size: 14px;
 	line-height: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Folio Light";
+	font-family: 'folio';
 }
 
 h1{
@@ -243,6 +239,7 @@ h5{
 	margin-bottom: 60px;
 }
 .big-title{
+	font-family: 'folio';
 	font-size: 50px;
 	font-weight: 700;
 	line-height: 50px;
@@ -272,12 +269,10 @@ h5{
 .header-content {
 	border-bottom: 1px solid#ccc;
 	margin-bottom: 30px;
-	font-family :"Folio Light";
 }
 .header-content span{
 	color: #555;
 	display: none;
-	font-family :"Folio Light";
 }
 
 
@@ -305,6 +300,8 @@ h5{
 	font-size: 22px;
 	color: #fff;
 	font-weight: 900;
+	border-right: 1px solid#ccc;
+	font-family: 'folio';
 }
 
 #tf-menu.navbar-default .navbar-nav > li > a {
@@ -312,7 +309,7 @@ h5{
 	color: #FFF;
 	font-size: 13px;
 	letter-spacing: 1px;
-	font-family: "Folio Light";
+	font-family: 'folio';
 	font-weight: 700;
 }
 .on{
@@ -371,7 +368,7 @@ h5{
 	z-index: 2;
 }
 .slider-content h3{
-	font-family: 'Lora', serif;
+	font-family: 'folio';
 	line-height: 40px;
 }
 .slider-content h2{
@@ -380,7 +377,7 @@ h5{
 	text-transform: uppercase;
 }
 .slider-content h5{
-	font-family: 'Lora', serif;
+	font-family: 'folio';
 	position: relative;
 	width: 20%;
 	margin: 20px auto;
@@ -433,7 +430,7 @@ h5{
 }
 .slider-small-text-content h4{
 	display: inline-block;
-	font-family: 'Lora', serif;
+	font-family: 'folio';
 	font-size: 14px;
 }
 .slider-small-text-content h4 i{
@@ -523,43 +520,36 @@ h5{
 .carousel .item.active .animated2{
 	-webkit-animation: lightSpeedIn 1s ease-in 200ms both;
 	animation: lightSpeedIn 1s ease-in 200ms both;
-	font-family : "Folio Light";
 }
 
 .carousel .item.active .animated3 {
 	-webkit-animation: bounceInLeft 2s ease-in-out 800ms both;
 	animation: bounceInLeft 1.5s ease-in-out 800ms both;
-	font-family : "Folio Light";
 }
 
 .carousel .item.active .animated4 {
 	-webkit-animation: flipInX 2s ease-in 800ms both;
 	animation: flipInX 2s ease-in 800ms both;
-	font-family : "Folio Light";
 }
 
 .carousel .item.active .animated5 {
 	-webkit-animation: bounceInLeft 1s ease-in-out 100ms both;
 	animation: bounceInLeft 1s ease-in-out 100ms both;
-	font-family : "Folio Light";
 }
 
 .carousel .item.active .animated6{
 	-webkit-animation: bounceIn 1s ease-in 500ms both;
 	animation: bounceIn 1s ease-in 500ms both;
-	font-family : "Folio Light";
 }
 
 .carousel .item.active .animated7{
 	-webkit-animation: bounceIn 1s ease-in 500ms both;
 	animation: bounceIn 1s ease-in 500ms both;
-	font-family : "Folio Light";
 }
 
 .carousel .item.active .animated8{
 	-webkit-animation: bounceInDown 1s ease-in 800ms both;
 	animation: bounceInDown 1s ease-in 800ms both;
-	font-family : "Folio Light";
 }
 
 /* Profile section 
@@ -616,13 +606,13 @@ h5{
 =========================*/
 .sub-heading h4{
 	color: #fff;
-	font-family : "Folio Light";
+	font-family: 'folio';
 	font-size: 28px;
 	margin-bottom: 25px;
 }
 .sub-heading p{
 	color: #fff;
-	font-family : "Folio Light";
+	font-family: 'folio';
 	margin-top: 20px;
 }
 .line{
@@ -633,7 +623,6 @@ h5{
 }
 .process-desc{
 	margin-top: 60px;
-	font-family :"Folio Light";
 }
 .process-timeline{
 	width: 100%;
@@ -641,12 +630,10 @@ h5{
 	background: none repeat scroll 0% 0% #eee;
 	position: relative;
 	top: 40px;
-	font-family :"Folio Light";
 }
 .single-process, .process-none{
 	width: 16.5%;
 	float: left;
-	font-family :"Folio Light";
 }
 .process-icon{
 	position: relative;
@@ -675,7 +662,7 @@ h5{
 }
 .single-process h4,.process-none h4{
 	text-transform: uppercase;
-	font-family: 'Lora', serif;
+	font-family: 'folio';
 	font-weight: 500;
 	margin-top: 20px;
 	color: #fff;
@@ -1472,7 +1459,7 @@ h5{
 	font-size: 30px;
 	padding-top: 28%;
 	font-weight: 700;
-	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: 'folio';
 	margin: 0 auto;
 	-webkit-box-shadow: 0px 0px 0px 4px #ccc;
 	box-shadow: 0px 0px 0px 4px #ccc;
@@ -1481,7 +1468,7 @@ h5{
 .skill-name{
 	font-weight: 700;
 	text-transform: uppercase;
-	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: 'folio';
 	margin: 20px 0px;
 	color: #fff;
 }
@@ -1558,7 +1545,7 @@ h5{
 	font-weight: 700;
 	padding: 50px 0px;
 	border-top: 0px;
-	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: 'folio';
 	border: 0px;
 }
 #feature-tab .nav-tabs li:last-child a{
