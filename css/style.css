@@ -8,29 +8,20 @@
 
 
 
-@font-face {
-	font-family: 'ElegantIcons';
-	src:url('fonts/ElegantIcons.eot');
-	src:url('fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
-		url('fonts/ElegantIcons.woff') format('woff'),
-		url('fonts/ElegantIcons.ttf') format('truetype'),
-		url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 /*font-family: 'Cabin Condensed', sans-serif;*/
 @font-face {
 	font-family: 'folio';
-	src: url('../fonts/folio-light-webfont.eot');
+	src: url(../fonts/folio-light-webfont.eot);
 	src: local('folio-light-webfont'), local('folio-light-webfont'), url('../fonts/folio-light-webfont.woff') format('truetype');
 	}
+
 /* Global styles
 ================================================== */
 
+
 .icon-box > img {
-	width: 10%;}
-
-
+	width: 20%;
+}
 
 .navbar-brand > img {
 	margin-top: -15px;
@@ -121,14 +112,14 @@ ul{
 ================================================== */
 
 body, p{
-	font-family: 'folio';
+	font-family:"folio";
 	font-weight: 400; 
 	font-size: 14px;
 	line-height: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'folio';
+	font-family: "folio";
 }
 
 h1{
@@ -243,7 +234,6 @@ h5{
 	margin-bottom: 60px;
 }
 .big-title{
-	font-family: 'folio';
 	font-size: 50px;
 	font-weight: 700;
 	line-height: 50px;
@@ -273,10 +263,12 @@ h5{
 .header-content {
 	border-bottom: 1px solid#ccc;
 	margin-bottom: 30px;
+	font-family :"folio";
 }
 .header-content span{
 	color: #555;
 	display: none;
+	font-family :"folio";
 }
 
 
@@ -296,15 +288,13 @@ h5{
 	transition: all 0.8s;
 }
 #tf-menu.navbar-default {
-	background-color: rgba(0,0, 0, 0.2);
+	background-color: rgba(0,0, 0, 0.5);
 }
 #tf-menu a.navbar-brand {
 	text-transform: uppercase;
 	font-size: 22px;
 	color: #fff;
 	font-weight: 900;
-	border-right: 1px solid#ccc;
-	font-family: 'folio';
 }
 
 #tf-menu.navbar-default .navbar-nav > li > a {
@@ -312,7 +302,7 @@ h5{
 	color: #FFF;
 	font-size: 13px;
 	letter-spacing: 1px;
-	font-family: 'folio';
+	font-family: "folio";
 	font-weight: 700;
 }
 .on{
@@ -371,7 +361,7 @@ h5{
 	z-index: 2;
 }
 .slider-content h3{
-	font-family: 'folio';
+	font-family: 'Lora', serif;
 	line-height: 40px;
 }
 .slider-content h2{
@@ -380,7 +370,7 @@ h5{
 	text-transform: uppercase;
 }
 .slider-content h5{
-	font-family: 'folio';
+	font-family: 'Lora', serif;
 	position: relative;
 	width: 20%;
 	margin: 20px auto;
@@ -433,7 +423,7 @@ h5{
 }
 .slider-small-text-content h4{
 	display: inline-block;
-	font-family: 'folio';
+	font-family: 'Lora', serif;
 	font-size: 14px;
 }
 .slider-small-text-content h4 i{
@@ -523,36 +513,43 @@ h5{
 .carousel .item.active .animated2{
 	-webkit-animation: lightSpeedIn 1s ease-in 200ms both;
 	animation: lightSpeedIn 1s ease-in 200ms both;
+	font-family : "folio";
 }
 
 .carousel .item.active .animated3 {
 	-webkit-animation: bounceInLeft 2s ease-in-out 800ms both;
 	animation: bounceInLeft 1.5s ease-in-out 800ms both;
+	font-family : "folio";
 }
 
 .carousel .item.active .animated4 {
 	-webkit-animation: flipInX 2s ease-in 800ms both;
 	animation: flipInX 2s ease-in 800ms both;
+	font-family : "folio";
 }
 
 .carousel .item.active .animated5 {
 	-webkit-animation: bounceInLeft 1s ease-in-out 100ms both;
 	animation: bounceInLeft 1s ease-in-out 100ms both;
+	font-family : "folio";
 }
 
 .carousel .item.active .animated6{
 	-webkit-animation: bounceIn 1s ease-in 500ms both;
 	animation: bounceIn 1s ease-in 500ms both;
+	font-family : "folio";
 }
 
 .carousel .item.active .animated7{
 	-webkit-animation: bounceIn 1s ease-in 500ms both;
 	animation: bounceIn 1s ease-in 500ms both;
+	font-family : "folio";
 }
 
 .carousel .item.active .animated8{
 	-webkit-animation: bounceInDown 1s ease-in 800ms both;
 	animation: bounceInDown 1s ease-in 800ms both;
+	font-family : "folio";
 }
 
 /* Profile section 
@@ -609,13 +606,13 @@ h5{
 =========================*/
 .sub-heading h4{
 	color: #fff;
-	font-family: 'folio';
+	font-family : "folio";
 	font-size: 28px;
 	margin-bottom: 25px;
 }
 .sub-heading p{
 	color: #fff;
-	font-family: 'folio';
+	font-family : "folio";
 	margin-top: 20px;
 }
 .line{
@@ -626,6 +623,7 @@ h5{
 }
 .process-desc{
 	margin-top: 60px;
+	font-family :"folio";
 }
 .process-timeline{
 	width: 100%;
@@ -633,10 +631,12 @@ h5{
 	background: none repeat scroll 0% 0% #eee;
 	position: relative;
 	top: 40px;
+	font-family :"folio";
 }
 .single-process, .process-none{
 	width: 16.5%;
 	float: left;
+	font-family :"folio";
 }
 .process-icon{
 	position: relative;
@@ -665,7 +665,7 @@ h5{
 }
 .single-process h4,.process-none h4{
 	text-transform: uppercase;
-	font-family: 'folio';
+	font-family: 'Lora', serif;
 	font-weight: 500;
 	margin-top: 20px;
 	color: #fff;
@@ -676,8 +676,6 @@ h5{
 /*-- Portfolio page --*/
 
 #work{
-	background-color: rgba(241, 89, 42, 0.5;
-	opacity:0.8;
 }
 #portfolio{
 	padding: 0 0 40px;
@@ -1464,7 +1462,7 @@ h5{
 	font-size: 30px;
 	padding-top: 28%;
 	font-weight: 700;
-	font-family: 'folio';
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	margin: 0 auto;
 	-webkit-box-shadow: 0px 0px 0px 4px #ccc;
 	box-shadow: 0px 0px 0px 4px #ccc;
@@ -1473,7 +1471,7 @@ h5{
 .skill-name{
 	font-weight: 700;
 	text-transform: uppercase;
-	font-family: 'folio';
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	margin: 20px 0px;
 	color: #fff;
 }
@@ -1494,12 +1492,6 @@ h5{
 /*parralax
 =============*/
 
-section >.parllax-overlay {
-		opacity: 0.5;
-}
-
-
-
 .parallax-overlay{
 	position: absolute;
 	left: 0;
@@ -1507,7 +1499,6 @@ section >.parllax-overlay {
 	width: 100%;
 	height: 100%;
 	background: url(../images/overaly.png);
-	opacity: 0.7;
 }
 
 .parallax-overlay2{
@@ -1518,6 +1509,7 @@ section >.parllax-overlay {
 	height: 100%;
 	background: url(../images/p2.png);
 }
+
 
 .parallax1{
 	background: url(../images/bg/bg5.jpg) fixed 50% 50%;
@@ -1566,7 +1558,7 @@ section >.parllax-overlay {
 	font-weight: 700;
 	padding: 50px 0px;
 	border-top: 0px;
-	font-family: 'folio';
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	border: 0px;
 }
 #feature-tab .nav-tabs li:last-child a{
