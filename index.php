@@ -46,7 +46,7 @@ $counter->initCounter();
     <link rel="stylesheet" href="css/responsive.css">
     <!-- circle counter -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- circle counter -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -677,6 +677,13 @@ We collects, processes, and interprets data related to the earth’s surface and
 										<label > Message</label>
 										<textarea cols="30" rows="10" class="form-control"  placeholder="message"></textarea>
 									</div>
+								</div>
+							</div>
+							<div class="row">
+							<div class="col-md-12 wow fadeInUp" data-wow-delay="1.1s">
+								<div class="form-group">
+							<div class="g-recaptcha" data-sitekey="6LcKxAgTAAAAAFdKT6_IJuxzTIREBAin16PFV-ni"></div>
+								</div>
 								</div>
 							</div>
 							<div class="row">
