@@ -19,6 +19,43 @@
 ================================================== */
 
 
+.text-left {
+	margin-left: 10%;
+} 
+
+.row > .col-md-3, .col-md-3 > p {
+	text-align:center;
+	font-family:"folio" ;
+	font-size: 25px ;
+	font-weight: 800;
+	line-height: 20px;
+	
+	}
+
+.container-fluid > .col-md-12, .row > .col-md-3 {
+	left:50%;
+	transform:translateX(-51%);
+}
+
+.col-md-12 > .col-md-4  {
+left: 10%;
+}
+
+.col-md-12 > .col-md-4 > a:hover {
+  background : rgba(0, 0, 0, 0.5);
+  border-radius : 13px;
+  -moz-border-radius : 13px;
+  -webkit-border-radius : 13px;
+}
+
+
+
+.col-md-12> .col-md-4 > a:active {
+  border-radius : 13px;
+  -moz-border-radius : 13px;
+  -webkit-border-radius : 13px;
+} 
+
 .icon-box > img {
 	width: 20%;
 }
