@@ -18,10 +18,86 @@
 /* Global styles
 ================================================== */
 
+.green {
+ color: rgb(139, 195, 73);
+ }
+ 
+.blog-content > p {
+text-align:justify;
+	}
+.blog-content > ul > li {
+	list-style:none;
+	line-height:1.9;
+	list-style-position:outside;
+	margin-left:-40px;
+	}
+
+.blog-content > ul > li:before {
+    content: "-";
+    margin-left: -7px;
+	margin-right: 5px;
+	}
+.blog-content > ol > ul > li {
+	list-style:disc;
+	line-height:1.9;
+	list-style-position:outside;
+	margin-left:-10px;
+	}
+	.blog-content > ol > ul > li:before {
+    content: "";
+    margin-left: -10px;
+	margin-right: 8px;
+	}
+ol {
+margin-left: -16px;
+}
+
+	
+
+.col-md-6 > h1 {
+	margin-left:-15px;
+	}
+
+	.col-md-6 > img {
+	margin-top: -70px;
+	padding-bottom: 100px;
+	}
+
+	.col-md-6 >a {
+	width:100%;
+	margin-top: -120px;
+	}
+	
+	.col-md-6 >h3,.col-md-6>p {
+	position:absolute;
+	width:100%;
+	}
+	.col-md-6>p {
+	position:absolute;
+	width:100%;
+	margin-top:50px;
+	}
+	
+.col-md-2 > a >img:hover{
+ background : rgba(0, 0, 0, 0.5);
+  border-radius : 13px;
+  -moz-border-radius : 13px;
+  -webkit-border-radius : 13px;
+  }
+
 
 .text-left {
 	margin-left: 10%;
 } 
+
+.col-md-4 > .blog-title{
+	margin-top: 90px;
+	}
+
+.col-md-4 > .blog-desc {
+	left: 50%;
+}
+
 
 .row > .col-md-3, .col-md-3 > p {
 	text-align:center;
@@ -275,8 +351,6 @@ h5{
 	font-weight: 700;
 	line-height: 50px;
 	text-transform: uppercase;
-	border-right: 1px solid#ccc;
-	border-left: 1px solid#ccc;
 	width: 35%;
 	margin:0 auto;
 	padding: 40px 0px;
@@ -325,7 +399,7 @@ h5{
 	transition: all 0.8s;
 }
 #tf-menu.navbar-default {
-	background-color: rgba(0,0, 0, 0.5);
+	background-color: rgba(255,255, 255, 1);
 }
 #tf-menu a.navbar-brand {
 	text-transform: uppercase;
@@ -336,14 +410,14 @@ h5{
 
 #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #FFF;
+	color: rgba(0,0,0, 0.8);
 	font-size: 13px;
 	letter-spacing: 1px;
 	font-family: "folio";
 	font-weight: 700;
 }
 .on{
-	background-color: #222222 !important;
+	background-color: rgba(255,255,255 1) !important;
 	padding: 0px !important;
 }
 .navbar-default .navbar-nav > .active > a, 
@@ -642,7 +716,7 @@ h5{
 /*Work process 
 =========================*/
 .sub-heading h4{
-	color: #fff;
+	color: #000;
 	font-family : "folio";
 	font-size: 28px;
 	margin-bottom: 25px;
@@ -650,7 +724,6 @@ h5{
 .sub-heading p{
 	color: #fff;
 	font-family : "folio";
-	margin-top: 20px;
 }
 .line{
 	width: 60px;
@@ -830,6 +903,80 @@ h5{
 #portfolio-carousel .carousel-inner{
 	/*overflow: visible;*/
 }
+
+
+/*figure*/
+igure.effect-oscar {
+/*	background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);*/
+}
+
+/*figure.effect-oscar img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+*/
+figure.effect-oscar figcaption {
+	padding: 15%;
+/*	background-color: rgba(58,52,42,0.7);
+	-webkit-transition: background-color 0.35s;
+	transition: background-color 0.35s;*/
+}
+
+figure.effect-oscar figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #FCEB34;
+	content: '';
+}
+
+figure.effect-oscar h2 {
+	margin: 0;
+	line-height: 1em;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+	font:300 25px/25px 'Bebas';
+	-webkit-font:300 25px/25px 'Bebas';
+	-0-font:300 25px/25px 'Bebas';
+	letter-spacing: 4	px;
+}
+
+
+figure.effect-oscar figcaption::before,
+figure.effect-oscar p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+figure.effect-oscar:hover h2 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-oscar:hover figcaption {
+	background-color: rgba(0,0,0,0.3);
+}
+
+figure.effect-oscar:hover img {
+	opacity: 0.4;
+}
+
 
 /*FEATURE section
 ===================================*/
@@ -1548,6 +1695,7 @@ h5{
 }
 
 
+
 .parallax1{
 	background: url(../images/bg/bg5.jpg) fixed 50% 50%;
 }
@@ -1686,7 +1834,6 @@ h5{
 	position: relative;
 }
 .effect-oscar img{
-	width: 100%;
 }
 .grid figure {
 	position: relative;
@@ -1700,12 +1847,12 @@ h5{
 }
 .effect-oscar figcaption{
 	position: absolute;
-	top: 10px;
-	left:18%;
+	width:100%;
+	top: 1px;
 	text-align: center;
 	opacity: 0;
 	background: rgba(0,0,0,.5);
-	bottom: 10px;
+	bottom: 1px;
 }
 .effect-oscar h3 {
 	font-size: 16px;
