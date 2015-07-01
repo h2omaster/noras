@@ -4246,8 +4246,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 5px;
   }
 }
 .navbar-form {
@@ -6562,5 +6562,10 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+@media screen and (min-width: 320px) {
+.navbar-brand{
+height:0px;
+}
 }
 /*# sourceMappingURL=bootstrap.css.map */

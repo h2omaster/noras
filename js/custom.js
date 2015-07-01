@@ -103,12 +103,12 @@ jQuery(function($) {
             $('.navbar-default').removeClass('on');
         }
     });
-
+/*
     $('body').scrollspy({ 
         target: '.navbar-default',
         offset: 80
     })
-   
+  */ 
 
 
   // // accordian
@@ -136,20 +136,20 @@ jQuery(function($) {
   /* ----------------------------------------------------------- */
   /*  Main slideshow
   /* ----------------------------------------------------------- */
-
+/*
   $('#slider').Carousel({
     pause: true,
     interval: 100000,
     pagination:true
   });
-
+*/
 
 
     
   // Feature -tab
-
+/*
     $('#feature-tab a:last').tab('show')
-
+*/
     // PIE chart
 
     

@@ -29,7 +29,7 @@
 /*SLider
 ==========================================================*/
 #slider{
-	padding-top: 80px;
+	padding-top: 0;
 	height: 650px;
 }
 .slider-content h5:after{
@@ -58,7 +58,7 @@
 /*MENU
 ======================================*/
 #tf-menu.navbar-default {
-    background-color: #333;
+    background-color: #FFF;
 }
 .navbar-nav {
 	margin-right: 5px;
@@ -86,7 +86,7 @@
 ===========================*/
 
 #slider{
-	margin-top: 80px;
+	margin-top: 0;
 	height: 350px;
 }
 .slider-content {
@@ -228,7 +228,12 @@
 		
 
 }
+@media (min-width : 240px) and (max-width: 320px)  {
+.navbar-brand > img {
+	margin-top: -65px;
+	width: 38%}
 
+	}
 /* Custom, iPhone Retina */ 
 @media (min-width : 320px) and (max-width: 767px)  {
 
@@ -236,7 +241,7 @@
 /*MENU
 ======================================*/
 #tf-menu.navbar-default {
-    background-color: #333;
+    background-color: #FFF;
 }
 .on.navbar-default .navbar-brand {
     margin-left: -70px;
@@ -246,7 +251,7 @@
 ===============================*/
 
 #slider{
-	margin-top: 80px;
+	margin-top: 50px;
 	height: 260px;
 }
 .slider-content {

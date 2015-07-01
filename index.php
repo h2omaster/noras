@@ -27,7 +27,7 @@ $counter->initCounter();
     <!-- CSS
   ================================================== -->
     <!-- Bootstrap -->
-     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+     <link href="assets/css/bootstrap.css" rel="stylesheet">
      <!-- Prettyphoto -->
 	<link rel="stylesheet" href="css/prettyPhoto.css">
     <!-- FontAwesome -->
@@ -307,166 +307,10 @@ $counter->initCounter();
 								<h3 class="big-title">projects</h3>
 								<span>creative work sample</span>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nulla omnis eos pariatur quidem at alias rerum tempora. </p>
+							<div id="containerx" ></div>
 						</div>
 					</div>
-				<div class='row wow fadeInUp'>
-				    <div class='col-lg-12'>
-				      <div class="carousel slide" id="portfolio-carousel">
-				        <div class="carousel-inner">
-				          	<div class="item  active">
-				            	<div class="row">
-									<div class="col-xs-12 col-sm-6 col-md-3">   
-										<div class="thumbnail">
-										    <div class="caption">
-										    	<div class="caption-content">
-											    	<span>
-														<a data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg">
-														    <i class="fa fa-search"></i>              
-														</a>
-											        	<a href="#" class=""><i class="fa fa-link"></i></a>
-											        </span>
-											        <h3>Papua </h3>
-											        <p>Effektive is more than your average team</p>
-										    	</div>
-										    </div>
-										    <img src="images/portfolio/portfolio1.jpg" alt="portfolio">
-										</div>
-									</div>          
-									<div class="col-xs-12 col-sm-6 col-md-3">   
-										<div class="thumbnail">
-										    <div class="caption">
-										    	<div class="caption-content">
-											    	<span>
-														<a data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg">
-														    <i class="fa fa-search"></i>              
-														</a>
-											        	<a href="#" class=""><i class="fa fa-link"></i></a>
-											        </span>
-											        <h3>Sunlight Shine</h3>
-											        <p>Effektive is more than your average agency.</p>
-										    	</div>
-										    </div>
-										    <img src="images/portfolio/portfolio2.jpg" alt="portfolio">
-										</div>
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-3">   
-										<div class="thumbnail">
-										    <div class="caption">
-										    	<div class="caption-content">
-											    	<span>
-														<a data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg">
-														    <i class="fa fa-search"></i>              
-														</a>
-											        	<a href="#" class=""><i class="fa fa-link"></i></a>
-											        </span>
-											        <h3>All Quiet Western</h3>
-											        <p>Effektive is more than your average agency.</p>
-										    	</div>
-										    </div>
-										    <img src="images/portfolio/portfolio3.jpg" alt="portfolio">
-										</div>
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-3">   
-										<div class="thumbnail">
-										    <div class="caption">
-										    	<div class="caption-content">
-											    	<span>
-														<a data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg">
-														    <i class="fa fa-search"></i>              
-														</a>
-											        	<a href="#" class=""><i class="fa fa-link"></i></a>
-											        </span>
-											        <h3>The GodFather</h3>
-											        <p>Effektive is more than your average agency.</p>
-										    	</div>
-										    </div>
-										    <img src="images/portfolio/portfolio4.jpg" alt="portfolio">
-										</div>
-									</div>
-				            	</div>
-				          	</div><!--/ Item active end -->
-							<div class="item">
-					            <div class="row">
-									<div class="col-xs-12 col-sm-6 col-md-3">   
-										<div class="thumbnail">
-										    <div class="caption">
-										    	<div class="caption-content">
-											    	<span>
-														<a data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg">
-														    <i class="fa fa-search"></i>              
-														</a>
-											        	<a href="#" class=""><i class="fa fa-link"></i></a>
-											        </span>
-											        <h3>Creative Vision</h3>
-											        <p>Effektive is more than your average agency.</p>
-										    	</div>
-										    </div>
-										    <img src="images/portfolio/portfolio5.jpg" alt="portfolio">
-										</div>
-									</div>          
-									<div class="col-xs-12 col-sm-6 col-md-3">   
-										<div class="thumbnail">
-										    <div class="caption">
-										    	<div class="caption-content">
-											    	<span>
-														<a data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg">
-														    <i class="fa fa-search"></i>              
-														</a>
-											        	<a href="#" class=""><i class="fa fa-link"></i></a>
-											        </span>
-											        <h3>Creative Vision</h3>
-											        <p>Effektive is more than your average agency.</p>
-										    	</div>
-										    </div>
-										    <img src="images/portfolio/portfolio6.jpg" alt="portfolio">
-										</div>
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-3">   
-										<div class="thumbnail">
-										    <div class="caption">
-										    	<div class="caption-content">
-											    	<span>
-														<a data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg">
-														    <i class="fa fa-search"></i>              
-														</a>
-											        	<a href="#" class=""><i class="fa fa-link"></i></a>
-											        </span>
-											        <h3>Creative Vision</h3>
-											        <p>Effektive is more than your average agency.</p>
-										    	</div>
-										    </div>
-										    <img src="images/portfolio/portfolio7.jpg" alt="portfolio">
-										</div>
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-3">   
-										<div class="thumbnail">
-										    <div class="caption">
-										    	<div class="caption-content">
-											    	<span>
-														<a data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg">
-														    <i class="fa fa-search"></i>              
-														</a>
-											        	<a href="#" class=""><i class="fa fa-link"></i></a>
-											        </span>
-											        <h3>Creative Vision</h3>
-											        <p>Effektive is more than your average agency.</p>
-										    	</div>
-										    </div>
-										    <img src="images/portfolio/portfolio8.jpg" alt="portfolio">
-										</div>
-									</div>
-					            </div>
-				          	</div><!--/ Item end -->
-				        </div><!-- Carousel inner end -->
-							
-							<div class="barrier-carousel-controller">
-						        <a data-slide="prev" href="#portfolio-carousel" class="left"><i class="fa fa-chevron-left"></i></a>
-						        <a data-slide="next" href="#portfolio-carousel" class="right"><i class="fa fa-chevron-right"></i></a>
-					    	</div><!-- Controller end -->
-				      </div><!-- Carousel end -->                          
-				    </div><!-- Main Col end -->
-		  		</div><!--/  row end -->
+				
 			</div><!--/ Main row end -->
 		</div><!--/ Container end -->
 	</section>
@@ -765,6 +609,14 @@ We collects, processes, and interprets data related to the earth’s surface and
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/2.2.2/proj4.js"></script>
+	
+	<script src="js/highmaps.js"></script>
+	
+	<script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
+	
+	<script src="js/indonesia.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- initialize jQuery Library -->
@@ -788,4 +640,55 @@ We collects, processes, and interprets data related to the earth’s surface and
     <script type="text/javascript" src="js/custom.js"></script>
 		
   </body>
+  <script type="text/javascript">
+$(function () {
+
+    // Initiate the chart
+    $('#containerx').highcharts('Map', {
+
+        title: {
+            text: 'Teritorial Mining'
+        },
+
+        mapNavigation: {
+            enabled: true
+        },
+
+        tooltip: {
+			useHTML : true,
+            headerFormat: '',
+            pointFormat: '<b>{point.name}</b><br>Mining: {point.mining}, Tanah: {point.tanah}, Gambar: <img src="{point.img}" />'
+        },
+
+        series: [{
+            // Use the gb-all map with no data as a basemap
+            mapData: Highcharts.maps['countries/id/id-all'],
+            name: 'Basemap',
+            borderColor: '#A0A0A0',
+            nullColor: 'rgba(94, 94, 71, 1)',
+            showInLegend: false
+        }, {
+            name: 'Separators',
+            type: 'mapline',
+            data: Highcharts.geojson(Highcharts.maps['countries/id/id-all'], 'mapline'),
+            color: '#FF3300',
+            showInLegend: false,
+            enableMouseTracking: false
+        }, {
+            // Specify points using lat/lon
+            type: 'mappoint',
+            name: 'Cities',
+            color: '#FF3300',
+            data: [{
+                name: 'Jakarta',
+                lat: -6.217,
+                lon: 106.8528,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            }]
+        }]
+    });
+});
+</script>
 </html>
