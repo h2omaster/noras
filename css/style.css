@@ -18,6 +18,14 @@
 /* Global styles
 ================================================== */
 
+#sg {
+	margin-left: 7%;
+	}
+
+	.container-fluid > .col-md-5 {
+		margin-left:-4%;
+		}
+
 .green {
  color: rgb(139, 195, 73);
  }
@@ -52,6 +60,23 @@ ol {
 margin-left: -16px;
 }
 
+
+.col-md-12 > p {
+margin-top: 20px;
+}
+
+
+.services-content > ul > ol {
+	margin-left: -30px;
+	line-height:1.9;
+	list-style-position:outside;
+
+	}
+
+.services-content > ul > ol > li {
+	margin-left: 20px;
+
+	}
 	
 
 .col-md-6 > h1 {
@@ -75,7 +100,7 @@ margin-left: -16px;
 	.col-md-6>p {
 	position:absolute;
 	width:100%;
-	margin-top:50px;
+	margin-top:70px;
 	}
 	
 .col-md-2 > a >img:hover{
@@ -98,6 +123,10 @@ margin-left: -16px;
 	left: 50%;
 }
 
+.goib {
+	display:block;
+	padding-bottom:50px;
+	}
 
 .row > .col-md-3, .col-md-3 > p {
 	text-align:center;
@@ -112,6 +141,15 @@ margin-left: -16px;
 	left:50%;
 	transform:translateX(-51%);
 }
+
+.col-md-4 > .img-circle {
+	width:100%;
+	}
+
+.row > .col-md-3 > img {
+	margin-left: -115%;
+	
+	}
 
 .col-md-12 > .col-md-4  {
 left: 10%;
@@ -414,7 +452,7 @@ h5{
 	font-size: 13px;
 	letter-spacing: 1px;
 	font-family: "folio";
-	font-weight: 500;
+	font-weight: 700;
 }
 .on{
 	background-color: rgba(255,255,255 1) !important;
