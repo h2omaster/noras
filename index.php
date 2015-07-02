@@ -28,6 +28,9 @@ $counter->initCounter();
   ================================================== -->
     <!-- Bootstrap -->
      <link href="assets/css/bootstrap.css" rel="stylesheet">
+	    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+
      <!-- Prettyphoto -->
 	<link rel="stylesheet" href="css/prettyPhoto.css">
     <!-- FontAwesome -->
@@ -95,6 +98,9 @@ $counter->initCounter();
 			  	<li data-target="#main-slide" data-slide-to="0" class="active"></li>
 			    <li data-target="#main-slide" data-slide-to="1"></li>
 			    <li data-target="#main-slide" data-slide-to="2"></li>
+				<li data-target="#main-slide" data-slide-to="3"></li>
+           	    <li data-target="#main-slide" data-slide-to="4"></li>
+
 			</ol><!--/ Indicators end-->
 			
 			<!-- Carousel inner -->
@@ -104,23 +110,77 @@ $counter->initCounter();
                     <div class="slider-content">
                     	<div class="col-md-12 text-center">
                     		<div class="slider-text">
-	                        	<h2 class="animated2">Welcome to Noras Nusantara </h2>
-	                        	<h3 class="animated3">We are your ultimate choice to lead a way</h3>
-	                        	<h5 class="animated6">lets introduce</h5>
-	                        	<a href="#service" class="animated4 page-scroll" ><i class="fa fa-angle-down"></i></a>
+	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
+	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
+	                        	<h5 class="animated7">lets introduce</h5>
+
+                        	</div>
+                    	</div>
+                    </div>
+			    </div><!--/ Carousel item end -->
+                
+				<div class="item ">
+			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+                    <div class="slider-content">
+                    	<div class="col-md-12 text-center">
+                    		<div class="slider-text">
+	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
+	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
+	                        	<h5 class="animated7">lets introduce</h5>
+                        	</div>
+                    	</div>
+                    </div>
+			    </div><!--/ Carousel item end -->
+				
+				<div class="item ">
+			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+                    <div class="slider-content">
+                    	<div class="col-md-12 text-center">
+                    		<div class="slider-text">
+	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
+	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
+	                        	<h5 class="animated7">lets introduce</h5>
+                        	</div>
+                    	</div>
+                    </div>
+			    </div><!--/ Carousel item end -->
+				
+				
+				
+         		<div class="item">
+			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+                    <div class="slider-content">
+                    	<div class="col-md-12 text-center">
+                    		<div class="slider-text">
+	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
+	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
+	                        	<h5 class="animated7">lets introduce</h5>
                         	</div>
                     	</div>
                     </div>
 			    </div><!--/ Carousel item end -->
 
+                 <div class="item">
+			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+                    <div class="slider-content">
+                    	<div class="col-md-12 text-center">
+                    		<div class="slider-text">
+	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
+	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
+	                        	<h5 class="animated7">lets introduce</h5>
+                        	</div>
+                    	</div>
+                    </div>
+			    </div><!--/ Carousel item end -->
+	
+
 			    <div class="item">
 			    	<img class="img-responsive" src="images/slider/bg42.jpg" alt="slider">
                     <div class="slider-content">
                         <div class="col-md-12 text-center">
-                            <h2 class="animated4"> We are Noras Nusantara</h2>
-                            <h3 class="animated5">About continous Help</h3>	
-                            <h5 class="animated2">lets introduce</h5>
-                            <a href="#service" class="animated6 page-scroll"><i class="fa fa-angle-down"> </i></a>     
+                            <h2 class="animated7"> We are Noras Nusantara</h2>
+                            <h3 class="animated7">About continous Help</h3>	
+                            <h5 class="animated7">lets introduce</h5>
                         </div>
                     </div>
 			    </div><!--/ Carousel item end -->
@@ -133,29 +193,26 @@ $counter->initCounter();
 	                        	<h2 class="animated7">We Offer our Clients</h2>
 	                        	<h3 class="animated7">An Expert level service</h3>
                         	</div>
-	                        <div class="slider-smalltext animated4">
+	                        <div class="slider-smalltext">
 	                        	<div class="slider-small-text-content">
-	                        		<h4 class="wow animated slideInRight" data-wow-delay=".5s">
+	                        		<h4 class="animated7" data-wow-delay=".5s">
 	                        			A Fresh Approch /
 	                        		</h4>
-		                        	<h4 class="wow animated slideInRight" data-wow-delay=".7s">
+		                        	<h4 class="animated7" data-wow-delay=".7s">
 		                        		 Proper Value of Money /
 		                        	</h4>
-		                        	<h4 class="wow animated slideInRight" data-wow-delay="1.1s">
+		                        	<h4 class="animated7" data-wow-delay="1.1s">
 		                        		 Right Solution /
 		                        	</h4>
-		                        	<h4 class="wow animated slideInRight" data-wow-delay="1.3s">
+		                        	<h4 class="animated7" data-wow-delay="1.3s">
 		                        		Taking Time to Care
 		                        	</h4>
 	                        	</div>
 	                        </div>
-	                       <a href="#service" class="animated6 page-scroll"><i class="fa fa-angle-down"> </i></a>	
                     	</div>
                     </div>
 			    </div><!--/ Carousel item end -->
 			</div><!-- Carousel inner end-->
-			
-			<!-- Controllers -->
 			<a class="left carousel-control" href="#main-slide" data-slide="prev">
 		    	<span><i class="fa fa-angle-left"></i></span>
 			</a>
@@ -163,13 +220,12 @@ $counter->initCounter();
 		    	<span><i class="fa fa-angle-right"></i></span>
 			</a>
 		</div><!--/ Carousel end --> 
-
 	</section>
 	<!-- main slider end -->
+	
 
 	<!-- Service section Start -->
 
-	<!-- Service section End -->
 	<section id="about" class="service">
 		<div class="container">
 			<div class="row">
@@ -222,20 +278,19 @@ $counter->initCounter();
 	
 	<section id="testimonial" class="parallax1">
 		
-			<div class="container">
-			<div class="parallax-overlay"></div>
+			<div class="parallax-overlay2"></div>
 			
-					<div class="col-md-12">
+			<div class="col-md-12">
 					<div class="sub-heading text-center">
 						<h4 style="color:white;">New Tecnology</h4>
-						</div>
-						</div>	
-						<div class="line"></div>
-						
-					<div class="row">
-						<div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
+					</div>
+			</div>						
+				<div class="row-fluid">
+					<div class="container-fluid">
+						<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
+
 							<figure class="effect-oscar wowload fadeInUp">
-							<img class="img-responsive" src="img/h1.jpg" alt="techno">
+							<img class="img-responsive" src="img/h5.jpg" alt="techno">
 								<figcaption>
 								<p style="color:white;">PASSIVE SEISMICTOMOGRAPHY (PST)
 							TECHNOLOGY</p>
@@ -243,117 +298,22 @@ $counter->initCounter();
 							</figcaption>
 							</figure>
                         </div>
-                        </div>
-						   <div class="clearfix"></div>
-                    <br/>
-						<br/>
-						<br/>
-						<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
+					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
 							<figure class="effect-oscar wowload fadeInUp">
-							<img class="img-responsive"src="img/h7.jpg" alt="techno">
+							<img class="img-responsive"src="img/h5.jpg" alt="techno">
 								<figcaption>
 								<p style="color:white;">SURFACE GEOCHEMICAL
 							TECHNOLOGY</p>
-								<a class="btn btn-default btn-xs" href="technology.php#pst" >View more</a>
+								<a class="btn btn-default btn-xs" href="technology.php#sg" >View more</a>
 							</figcaption>
 							</figure>
                         </div>
-                        </div>   
-				
-		
-			</div>
-				
+					</div>
+				</div>
+
 	</section>
 	<!-- Work process end -->
 	
-	
-	
-	<!-- Section work start -->
-	<section id="work">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="header-desc text-center">
-							<div class="header-content">
-								<h3 class="big-title">projects</h3>
-								<span>creative work sample</span>
-							</div>
-							<div id="containerx" ></div>
-						</div>
-					</div>
-				
-			</div><!--/ Main row end -->
-		</div><!--/ Container end -->
-	</section>
-	
-
-
-
-
-	<!-- Section testimonial start -->
-	<section id="testimonial" class="parallax1">
-		<div class="parallax-overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
-						<ol class="carousel-indicators visible-lg visible-md">
-						  	<li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#testimonial-carousel" data-slide-to="1"></li>
-						    <li data-target="#testimonial-carousel" data-slide-to="2"></li>
-						</ol><!--/ Indicators end-->
-
-						<div class="carousel-inner">
-							<div class="item active text-center">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="testimonial-thumb">
-										<img src="images/team/team1.jpg" alt="" class="img-responsive">
-										</div>
-										<div class="testimonial-content">
-											<p>Officiis blanditiis, tempore, distinctio assumenda fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.Fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.</p>
-											<h3>Jimmi jabrik</h3>
-											<span>company name</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item text-center">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="testimonial-thumb">
-										<img src="images/team/team2.jpg" alt="" class="img-responsive">
-										</div>
-										<div class="testimonial-content">
-											<p>Officiis blanditiis, tempore, distinctio assumenda fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.Fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.</p>
-											<h3>Jimmi jabrik</h3>
-											<span>company name</span>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="item text-center">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="testimonial-thumb">
-										<img src="images/team/team1.jpg" alt="" class="img-responsive">
-										</div>
-										<div class="testimonial-content">
-											<p>Officiis blanditiis, tempore, distinctio assumenda fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.Fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.</p>
-											<h3>Jimmi jabrik</h3>
-											<span>company name</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> <!-- testimonial-carousel end -->
-				</div> <!-- row end -->
-			</div> <!-- container end -->
-	</section>
-	<!-- Section testimonial end -->
 	
 	<!-- section blog start -->
 	<section id="sevices">
@@ -451,7 +411,99 @@ We collects, processes, and interprets data related to the earth’s surface and
 		</div> <!-- container end -->
         
 	</section>
-	<!-- section blog end --><div class="m40"></div>
+	
+
+
+
+
+	<!-- Section testimonial start -->
+	<section id="testimonial" class="parallax1">
+		<div class="parallax-overlay2"></div>
+			<div class="container">
+				<div class="row">
+					<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators visible-lg visible-md">
+						  	<li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+						    <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+						</ol><!--/ Indicators end-->
+
+						<div class="carousel-inner">
+							<div class="item active text-center">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="testimonial-thumb">
+										<img src="images/team/team1.jpg" alt="" class="img-responsive">
+										</div>
+										<div class="testimonial-content">
+											<p>Officiis blanditiis, tempore, distinctio assumenda fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.Fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.</p>
+											<h3>Jimmi jabrik</h3>
+											<span>company name</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item text-center">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="testimonial-thumb">
+										<img src="images/team/team2.jpg" alt="" class="img-responsive">
+										</div>
+										<div class="testimonial-content">
+											<p>Officiis blanditiis, tempore, distinctio assumenda fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.Fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.</p>
+											<h3>Jimmi jabrik</h3>
+											<span>company name</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item text-center">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="testimonial-thumb">
+										<img src="images/team/team1.jpg" alt="" class="img-responsive">
+										</div>
+										<div class="testimonial-content">
+											<p>Officiis blanditiis, tempore, distinctio assumenda fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.Fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.</p>
+											<h3>Jimmi jabrik</h3>
+											<span>company name</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- testimonial-carousel end -->
+				</div> <!-- row end -->
+			</div> <!-- container end -->
+	</section>
+	<!-- Section testimonial end -->
+	
+	
+		<!-- Section work start -->
+	<section id="work">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="header-desc text-center">
+							<div class="header-content">
+								<h3 class="big-title">projects</h3>
+								<span>creative work sample</span>
+							</div>
+							<div id="containerx" ></div>
+						</div>
+					</div>
+				
+			</div><!--/ Main row end -->
+		</div><!--/ Container end -->
+	</section>
+
+	
+	
+	
+	
+	<div class="m40"></div>
 	
 	
 

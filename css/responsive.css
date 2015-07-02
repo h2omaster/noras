@@ -11,7 +11,6 @@
 /* Medium Devices, Desktops */
 @media (min-width : 992px) and (max-width: 2400px) {
 .navbar-brand > img {
-	margin-top: -25px;
 	width: 38%;
 	}
 .navbar-nav {
@@ -25,7 +24,7 @@
     bottom: 0px!important;
 }
 #tf-menu.navbar-default .navbar-nav > li > a {
-    font-size: 14px
+    font-size: 11px
 }
 
 
