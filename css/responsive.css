@@ -9,8 +9,11 @@
 
 
 /* Medium Devices, Desktops */
-@media (min-width : 992px) and (max-width: 1200px) {
-
+@media (min-width : 992px) and (max-width: 2400px) {
+.navbar-brand > img {
+	margin-top: -25px;
+	width: 38%;
+	}
 .navbar-nav {
 	margin-right: 5px;
 }
@@ -53,7 +56,10 @@
 
 /* Small Devices, Tablets */
 @media (min-width : 768px) and (max-width: 991px) {
-
+.navbar-brand > img {
+	margin-top: -15px;
+	width: 38%;
+	}
 
 /*MENU
 ======================================*/
@@ -228,16 +234,174 @@
 		
 
 }
-@media (min-width : 240px) and (max-width: 320px)  {
+@media (min-width: 240px) and (max-width: 388px)  {
 .navbar-brand > img {
-	margin-top: -65px;
-	width: 38%}
+	margin-top: -55px;
+	width: 38%;
+	}
+/*MENU
+======================================*/
+#tf-menu.navbar-default {
+    background-color: #FFF;
+}
+.on.navbar-default .navbar-brand {
+    margin-left: -70px;
+}
+
+/*slider
+===============================*/
+
+#slider{
+	margin-top: 70px;
+	height: 240px;
+}
+.slider-content {
+	padding-bottom: 20px;
+}
+.slider-content h2 {
+    font-size: 22px;
+    line-height: 0px;
+}
+.slider-content h3{
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.slider-small-text-content h4{
+	font-size: 10px;
+	line-height: 10px;
+}
+
+.slider-content h5 {
+	width: 35%;
+}
+.slider-content a {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}	
+
+.slider-content h5:before,.slider-content h5:after{
+	display: none;
+}
+
+/*CAROUSEL CONTROLS
+=================================*/
+.carousel-control i {
+    line-height: 36px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px
+}
+#main-slide:hover .carousel-control.left{
+	left: 10px;
+}
+#main-slide:hover .carousel-control.right{
+	right: 10px;
+}
+
+
+
+/*Title HEADING
+============================*/
+.big-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 50%;
+    padding: 15px 0px;
+}
+
+
+
+/*SKILL bar
+=====================================*/
+
+#skill-bar .sub-heading h2 {
+	font-size: 20px;
+}
+.col2 {
+    width: 51%;
+    padding: 0px 0px;
+    margin-bottom: 10px;
+}
+.skill-content {
+    margin-left: 35px;
+}
+
+
+
+/*Feature TAB
+===================================*/
+#feature-tab{}
+
+#feature-tab .nav-tabs li{
+	width: 50%;
+}
+#feature-tab .nav-tabs li a {
+    border-radius: 0px;
+    font-size: 16px;
+    padding: 20px 0px;
+}
+.feature-icon {
+	margin-right: 20px;
+}
+.feature-icon i {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 62px;
+}
+
+.feature-content{
+	margin-left: 88px;
+}
+
+
+
+/*PROCESSS section
+=====================================*/
+
+.single-process, .process-none {
+    width: 48.5%;
+    margin-bottom: 10px;
+}
+.process-timeline{
+	display: none;
+}
+.process-icon:before{
+	display: none;
+}
+
+
+/*BLOG SECTION
+=========================================*/
+.socail-list a i {
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    padding: 9px 0px 0px 10px;
+}
+
+.blog-content h4.blog-title {
+    margin-top: 10px;
+}
+
+/*BACK TO TOP
+=======================*/
+#back-to-top {
+    right: 15px;
+}
 
 	}
 /* Custom, iPhone Retina */ 
-@media (min-width : 320px) and (max-width: 767px)  {
-
-
+@media (min-width: 388px) and (max-width: 767px)  {
+.navbar-brand > img {
+	margin-top: -15px;
+	width: 38%;
+	}
 /*MENU
 ======================================*/
 #tf-menu.navbar-default {

@@ -169,6 +169,7 @@ $counter->initCounter();
 
 	<!-- Service section Start -->
 
+	<!-- Service section End -->
 	<section id="about" class="service">
 		<div class="container">
 			<div class="row">
@@ -178,120 +179,91 @@ $counter->initCounter();
 						</div>
 				</div>
 			</div>
-
-			<div class="row text-center">
-				<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-delay=".2s">
-					<div class="service-desc">
-						<div class="icon-box">
-							<img src="img/w1.png" alt="icon">
-                            <h3> Who We Are <br>  <br></h3>
-						</div>
-                    <div class="wow bounceInLeft" data-wow-delay=".5s">
-                    <img src="img/profil.png" alt="profil">
-						<div class="service-content ">
-							<p>Noras Nusantara, was founded in Bandung, Indonesia in 2011 by a group of professionals who had many experiences in exploration and development process of natural resources especially in Indonesia. </p>
-							<a href="#"><p><i><u>Read more</u></i></p></a>
-                        </div>
-					</div>
-                    </div>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-delay=".5s">
-					<div class="service-desc">
-						<div class="icon-box ">
-                        <img src="img/w3.png" alt="icon">
-                            <h3> Why Choose <br>Noras Nusantara ? </h3>
-						</div>
-                          <div class="wow bounceInLeft" data-wow-delay=".5s">
-                    <img src="img/profil.png" alt="profil">
-						<div class="service-content">
-							<p>We develop optimal organization structure to achieve company objective.</p>
-                            <br>
-                            <a href="#"><p><i><u>Read more</u></i></p></a>
-						</div>
-					</div>
-                    </div>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-delay=".8s">
-					<div class="service-desc">
-						<div class="icon-box">
-                        <img src="img/w2.png" alt="icon">
-                            <h3> Our Mission <br><br> </h3>
-                          <div class="wow bounceInLeft" data-wow-delay=".5s">
-                    	<img src="img/profil.png" alt="profil">
-						<div class="service-content">
-							<p>Our mission is to be the world’s leading service provider for the collection and interpretation of data relating to the earth’s surface and sub-surface and for associated services</p>
-							<a href="#"><p><i><u>Read more</u></i></p></a>
-
-                        </div>
-					</div>
-                    </div>
-				</div>
-						
-			</div> <!-- row end -->
-		</div> <!-- container end -->
-       </div>
-	</section>
-	<!-- Service section End -->
-	
-	<!-- Work process start -->
-
-	<section id="process" class="process parallax2">
-		<div class="parallax-overlay"></div>
-		<div class="container">
+			<br/>
 			<div class="row">
-				<div class="col-md-12">
-					<div class="sub-heading text-center">
-						<h4 >Our working process</h4>
-						<div class="line"></div>
-						<p>simply we follow these process</p>
-					</div>
-				</div>
+			<div class="col-md-12 wow fadeInLeft" data-wow-delay=".2s">
+				<div class="col-md-5 text-center">
+				 <img class="img-responsive" src="img/profil.png" alt="profil">
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="process-desc">
-						<div class="process-timeline"></div>
-						<div class="process-none text-center">
-							<div >
-								<i class="fa fa-lightbulb-o"></i>
-							</div>
-							<h4>langkah 1</h4>
+			
+				<div class="service-content">
+				<div class="col-md-7 text-center">
+					<h1> WHO WE ARE </h1>
+				</div>
+				
+							<p style="text-align:justify;">NORAS NUSANTARA is a geological and mining services company that dedicated to provide high quality geological and mining services in Indonesia.
+							
+							The company’s strategy is to build value through the acquisition, exploration and development of coal, precious and base metal properties with excellent values potential to the point where they become attractive acquisitions or joint venture targets.
+							
+							The company was founded in 2011 by a group of professionals who had many experiences in exploration and development process of coal and minerals especially in Indonesia. PT. NORAS NUSANTARA has built an impressive team to implement this strategy. They include Exploration Team, Mining Team, and Geotechnical Environmental Team.</p>
+                    
+                        </div>
+						<div class="col-md-2 text-center">
+							<a href="aboutus.html#about" target="_blank"><img class="btn img-responsive" src="img/w1.png" alt="icon"></a>
+							<p>Who We Are</p>
 						</div>
-						<div class="single-process text-center">
-							<div class="process-icon">
-								<i class="fa fa-pencil"></i>
-							</div>
-							<h4>langkah 2</h4>
+						<div class="col-md-2 text-center">
+							<a href="aboutus.html#mission"><img class="btn img-responsive" src="img/w2.png" alt="icon"></a>
+							<p>Our Mission</p>
+						</div>
+						<div class="col-md-2 text-center">
+							<a href="aboutus.html#choose"><img class="btn img-responsive" src="img/w3.png" alt="icon"></a>
+							<p>Why choose <br> Noras Nusantara?</p>
 						</div>
 
-						<div class="single-process text-center">
-							<div class="process-icon">
-								<i class="fa fa-lightbulb-o"></i>
-							</div>
-							<h4>langkah 3</h4>
+						
+					
+                    </div>
+                    </div>
+                    </div>
+			
+	</section>
+	<!-- Work process start -->
+	
+	<section id="testimonial" class="parallax1">
+		
+			<div class="container">
+			<div class="parallax-overlay"></div>
+			
+					<div class="col-md-12">
+					<div class="sub-heading text-center">
+						<h4 style="color:white;">New Tecnology</h4>
 						</div>
-						<div class="single-process text-center">
-							<div class="process-icon">
-								<i class="fa fa-code"></i>
-							</div>
-							<h4>langkah 4</h4>
-						</div>
-						<div class="single-process text-center">
-							<div class="process-icon">
-								<i class="fa fa-flask"></i>
-							</div>
-							<h4>langkah 5</h4>
-						</div>
-						<div class="single-process text-center">
-							<div class="process-icon">
-								<i class="fa fa-rocket"></i>
-							</div>
-							<h4>langkah 6</h4>
-						</div>
-					</div>
-				</div>
-			</div> <!-- row end -->
-		</div>
+						</div>	
+						<div class="line"></div>
+						
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
+							<figure class="effect-oscar wowload fadeInUp">
+							<img class="img-responsive" src="img/h1.jpg" alt="techno">
+								<figcaption>
+								<p style="color:white;">PASSIVE SEISMICTOMOGRAPHY (PST)
+							TECHNOLOGY</p>
+								<a class="btn btn-default btn-xs" href="technology.php#pst" >View more</a>
+							</figcaption>
+							</figure>
+                        </div>
+                        </div>
+						   <div class="clearfix"></div>
+                    <br/>
+						<br/>
+						<br/>
+						<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
+							<figure class="effect-oscar wowload fadeInUp">
+							<img class="img-responsive"src="img/h7.jpg" alt="techno">
+								<figcaption>
+								<p style="color:white;">SURFACE GEOCHEMICAL
+							TECHNOLOGY</p>
+								<a class="btn btn-default btn-xs" href="technology.php#pst" >View more</a>
+							</figcaption>
+							</figure>
+                        </div>
+                        </div>   
+				
+		
+			</div>
+				
 	</section>
 	<!-- Work process end -->
 	
@@ -465,6 +437,17 @@ We collects, processes, and interprets data related to the earth’s surface and
 			</div><!-- row end -->
             <div class="m40"></div>
             <p> Our approach is straightforward. The best people, combined with the innovative application of leading edge ideas and technology. Noras nusantara provides a unique range of services and activities, mostly in Indonesia, these are organized in two divisions of each business segments: Geoscience and Survey.</p>
+			<div class="container-fluid">
+				<div class="col-md-12">
+						<div class="col-md-4">
+                        <a class="btn" href="servicespage.html#sur"><img src="images/btn3.png"></a>
+                        </div>
+						<div class="col-md-2"></div>
+                        <div class="col-md-4">
+                        <a class="btn" href="servicespage.html#geo"><img src="images/btn4.png"></a>
+                        </div>
+						</div>
+						</div>
 		</div> <!-- container end -->
         
 	</section>
@@ -657,13 +640,14 @@ $(function () {
         tooltip: {
 			useHTML : true,
             headerFormat: '',
-            pointFormat: '<b>{point.name}</b><br>Mining: {point.mining}, Tanah: {point.tanah}, Gambar: <img src="{point.img}" />'
+            pointFormat: '<a href="#" data-toggle="tooltip" title=""><b>{point.name}</b><br>Mining: {point.mining}, Tanah: {point.tanah},<br> Gambar: <img src="{point.img}" /></a>'
         },
 
         series: [{
             // Use the gb-all map with no data as a basemap
             mapData: Highcharts.maps['countries/id/id-all'],
             name: 'Basemap',
+			useHTML : true,
             borderColor: '#A0A0A0',
             nullColor: 'rgba(94, 94, 71, 1)',
             showInLegend: false
@@ -677,12 +661,159 @@ $(function () {
         }, {
             // Specify points using lat/lon
             type: 'mappoint',
-            name: 'Cities',
+            name: 'Location',
             color: '#FF3300',
             data: [{
-                name: 'Jakarta',
-                lat: -6.217,
-                lon: 106.8528,
+                name: 'Belilas,Riau',
+                lat: -0.479563,
+                lon: 102.400691,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Pendopo, Muara Enim, South Sumatera',
+                lat: -3.639138,
+                lon: 103.776336,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Lematang, Muara Enim, South Sumatera',
+                lat: -3.646333,
+                lon: 103.748184,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Cianjur, West Java',
+                lat: -6.817800,
+                lon: 107.118246,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Tasikmalaya, West Java',
+                lat: -7.312821,
+                lon: 108.222625,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Martapura, South Kalimantan',
+                lat: -3.391397,
+                lon: 114.867644,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Tabalong, Central Kalimantan',
+                lat: -1.721902,
+                lon: 115.470180,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Buntok, Central kalimantan',
+                lat: -1.734298,
+                lon: 114.879189,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Putussibau, West Kalimantan',
+                lat: 0.852073,
+                lon: 112.932233,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Kuaro, East Kalimantan',
+                lat: -1.753171,
+                lon: 116.135853,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Petangis, East Kalimantan',
+                lat: -2.062298,
+                lon: 116.059577,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Sangatta Utara, East Kalimantan',
+                lat: 0.530955,
+                lon: 117.543901,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Malinau, North Kalimantan',
+                lat: 3.550447,
+                lon: 116.617058,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'West Kalimantan',
+                lat: -2.739811, 
+                lon: 119.532146,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Morowali, Central Sulawesi',
+                lat: -2.390607, 
+                lon: 121.499259,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Luwuk, Central Sulawesi',
+                lat: -0.942536, 
+                lon: 122.788345,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Kefa, NTT',
+                lat: -9.445488, 
+                lon: 124.460501,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'kaibobo, mauluku',
+                lat: -3.210263, 
+                lon: 128.173190,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Weda, Central Halmahera',
+                lat: 0.341341, 
+                lon: 127.847411,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Wasilei, North Halmahera',
+                lat: 1.300572, 
+                lon: 128.488860,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Misool, Papua',
+                lat: -2.244866,  
+                lon: 130.553146,
+				mining : 2000,
+				tanah : 'tandus',
+				img : 'img/1.png'
+            },{
+                name: 'Asmat, Papua',
+                lat: -6.021159, 
+                lon: 138.588283,
 				mining : 2000,
 				tanah : 'tandus',
 				img : 'img/1.png'
