@@ -28,9 +28,14 @@ $counter->initCounter();
   ================================================== -->
     <!-- Bootstrap -->
      <link href="assets/css/bootstrap.css" rel="stylesheet">
+<<<<<<< .mine
+	 <link rel="stylesheet" href="css/demo.css">
+  
+=======
 	    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
 
+>>>>>>> .r62
      <!-- Prettyphoto -->
 	<link rel="stylesheet" href="css/prettyPhoto.css">
     <!-- FontAwesome -->
@@ -57,6 +62,139 @@ $counter->initCounter();
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<style>
+	/* CSS Resets */
+* {
+	padding:0;
+	margin:0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul,ol {
+	list-style-type: none;
+}
+/* end css reset */
+
+.ask {	/* posisikan letak slidernya */
+	margin:10% auto;
+	position: relative;
+	overflow: hidden;
+}
+.ask, ul.slidebnm li img{
+	width:500px; /* Sesuaikan sendiri */
+	height: 300px;  /* Sesuaikan sendiri */
+}
+
+
+ul.slidebnm {
+	position: absolute;
+	display: block;
+	width:300%;  /* <-- Angka 3 Bergantung pada jumlah slide */
+}
+
+.caption {	/* styling untuk deskripsi setiap slide */
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	bottom:0;
+	padding:10px;
+	color:#fff;
+	left: 0;
+	right: 0;
+}
+
+/* Yang membuatnya jadi slider */
+	ul.slidebnm li {
+  		display: inline-block;
+  		float: left;
+  		-webkit-box-sizing:border-box;
+  		-moz-box-sizing:border-box;
+  		ox-sizing:border-box;
+  		-webkit-transition: -webkit-transform 2000ms;
+  		-moz-transition: -moz-transform 2000ms;
+  		transition: -webkit-transform 2000ms, transform 2000ms;
+	}
+	ul.slidebnm li.bnm-1 {
+		left: 0%;
+	}
+	ul.slidebnm li.bnm-2 {
+		left: 100%;
+	}
+	ul.slidebnm li.bnm-3 {
+		left: 200%;
+	}
+	#nav-1:checked ~ ul.slidebnm li{
+	  	-webkit-transform: translateX(0%);
+		-moz-transform: translateX(0%);
+	  	transform: translateX(0%);
+	}
+	#nav-2:checked ~ ul.slidebnm li{
+	  	-webkit-transform: translateX(-100%);
+	  	-moz-transform: translateX(-100%);
+	 	transform: translateX(-100%);
+	}
+	#nav-3:checked ~ ul.slidebnm li {
+	  	-webkit-transform: translateX(-200%);
+	  	-moz-transform: translateX(-200%);
+	  	transform: translateX(-200%);
+	}
+/* End, yang membuatnya jadi slider */
+
+
+/* Navigator */
+
+.radio-nav { /* menghilangkan radio button */
+	display: none;
+}
+	
+	/* styling untuk tombol next dan previous slide */
+	.nav-arrow {
+		position: absolute;
+		top:45%;
+		width:50px;
+		height: 50px;
+	}
+	.nav-next {
+		right:10px;
+	}
+	.nav-prev {
+		left:10px;
+	}
+	.nav-arrow label {
+		-webkit-transition:all 0.3s;
+		-moz-transition:all 0.3s;
+		transition:all 0.3s;
+		background-color: rgba(0,0,0,0.3);
+		color: #fff;
+		border-radius: 50%;
+		display: block;
+		position: absolute;
+		padding:15px 20px;
+		cursor: pointer;
+		z-index: 1;
+		opacity: 0;
+		font-weight: bold;
+		line-height: 1;
+	}
+	.ask:hover .nav-arrow label{
+		background-color: rgba(0,0,0,0.7);
+	}
+	/* end styling untuk tombol next dan previous slide */
+	/*Setiap slide mempunya tombol prev dan next-nya masing-masing. Nah, tampilkan tombol yang tepat dengan kode dibawah ini*/ 
+	#nav-1:checked ~ .nav-prev label.nav-3,
+	#nav-1:checked ~ .nav-next label.nav-2,
+	#nav-2:checked ~ .nav-prev label.nav-1,
+	#nav-2:checked ~ .nav-next label.nav-3,
+	#nav-3:checked ~ .nav-prev label.nav-2,
+	#nav-3:checked ~ .nav-next label.nav-1 {
+		z-index: 2;
+		opacity: 1;
+	}
+	/* end */
+
+/* Navigator */
+</style>
   </head>
   <body>
     
@@ -315,6 +453,135 @@ $counter->initCounter();
 	<!-- Work process end -->
 	
 	
+<<<<<<< .mine
+	
+	<!-- Section work start -->
+	<section id="work">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="header-desc text-center">
+							<div class="header-content">
+								<h3 class="big-title">projects</h3>
+								<span>creative work sample</span>
+							</div>
+							
+							<div id="containerx" ></div>
+						
+					<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+    <div class="ask">
+	<input type="radio" name="slidebnm" class="radio-nav" id="nav-1" checked/>
+	<input type="radio" name="slidebnm" class="radio-nav" id="nav-2"/>
+	<input type="radio" name="slidebnm" class="radio-nav" id="nav-3"/>
+
+	<ul class="slidebnm">
+		
+	</ul>
+
+	<div class="nav-arrow nav-next">
+		<label class="nav-1" for="nav-1">></label>
+		<label class="nav-2" for="nav-2">></label>
+		<label class="nav-3" for="nav-3">></label>
+	</div>
+	<div class="nav-arrow nav-prev">
+		<label class="nav-1" for="nav-1"><</label>
+		<label class="nav-2" for="nav-2"><</label>
+		<label class="nav-3" for="nav-3"><</label>
+	</div>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+						</div>
+					</div>
+				
+			</div><!--/ Main row end -->
+		</div><!--/ Container end -->
+	</section>
+	
+
+
+
+
+	<!-- Section testimonial start -->
+	<section id="testimonial" class="parallax1">
+		<div class="parallax-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators visible-lg visible-md">
+						  	<li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+						    <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+						</ol><!--/ Indicators end-->
+
+						<div class="carousel-inner">
+							<div class="item active text-center">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="testimonial-thumb">
+										<img src="images/team/team1.jpg" alt="" class="img-responsive">
+										</div>
+										<div class="testimonial-content">
+											<p>Officiis blanditiis, tempore, distinctio assumenda fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.Fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.</p>
+											<h3>Jimmi jabrik</h3>
+											<span>company name</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item text-center">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="testimonial-thumb">
+										<img src="images/team/team2.jpg" alt="" class="img-responsive">
+										</div>
+										<div class="testimonial-content">
+											<p>Officiis blanditiis, tempore, distinctio assumenda fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.Fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.</p>
+											<h3>Jimmi jabrik</h3>
+											<span>company name</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item text-center">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="testimonial-thumb">
+										<img src="images/team/team1.jpg" alt="" class="img-responsive">
+										</div>
+										<div class="testimonial-content">
+											<p>Officiis blanditiis, tempore, distinctio assumenda fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.Fugiat quaerat ea a rem est debitis quo harum corporis, labore eligendi natus quidem. Non, illum, ipsa.</p>
+											<h3>Jimmi jabrik</h3>
+											<span>company name</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- testimonial-carousel end -->
+				</div> <!-- row end -->
+			</div> <!-- container end -->
+	</section>
+	<!-- Section testimonial end -->
+	
+=======
+>>>>>>> .r62
 	<!-- section blog start -->
 	<section id="sevices">
 		<div class="container">
@@ -400,11 +667,11 @@ We collects, processes, and interprets data related to the earth’s surface and
 			<div class="container-fluid">
 				<div class="col-md-12">
 						<div class="col-md-4">
-                        <a class="btn" href="servicespage.html#sur"><img src="images/btn3.png"></a>
+                        <a class="btn" href="servicespage.php#sur"><img src="images/btn3.png"></a>
                         </div>
 						<div class="col-md-2"></div>
                         <div class="col-md-4">
-                        <a class="btn" href="servicespage.html#geo"><img src="images/btn4.png"></a>
+                        <a class="btn" href="servicespage.php#geo"><img src="images/btn4.png"></a>
                         </div>
 						</div>
 						</div>
@@ -643,8 +910,12 @@ We collects, processes, and interprets data related to the earth’s surface and
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+ 
+<!--<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />-->
+  <script src="js/responsiveslides.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/2.2.2/proj4.js"></script>
 	
 	<script src="js/highmaps.js"></script>
@@ -675,9 +946,25 @@ We collects, processes, and interprets data related to the earth’s surface and
     <script type="text/javascript" src="js/custom.js"></script>
 		
   </body>
-  <script type="text/javascript">
-$(function () {
-
+  <script>
+$(document).ready(function(){
+	 $(".rslides").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        //before: function () {
+         // $('.events').append("<li>before event fired.</li>");
+        //},
+       // after: function () {
+        //  $('#slider4').html('<li><img src="images/1.jpg"></li>'
+									//+'<li><img src='+event.point.img2+'></li>'
+		//							);
+        //}
+      });	    
+ $(function () {
+					  
     // Initiate the chart
     $('#containerx').highcharts('Map', {
 
@@ -686,15 +973,57 @@ $(function () {
         },
 
         mapNavigation: {
-            enabled: true
+            enabled: false
         },
+	 
+		 plotOptions: {
+            series: {
+				events: {
+                    click: function (event) {
+				
+					//$( "#dialog1" ).dialog({
+					//	autoOpen: false
+					//  });
+			//  $("#opener").click(function() {
+				//$("#dialog1").dialog('open');
 
-        tooltip: {
-			useHTML : true,
-            headerFormat: '',
-            pointFormat: '<a href="#" data-toggle="tooltip" title=""><b>{point.name}</b><br>Mining: {point.mining}, Tanah: {point.tanah},<br> Gambar: <img src="{point.img}" /></a>'
+				/*
+			var d1 = document.getElementById('zxc');
+d1.insertAdjacentHTML('afterend', '<img src='+event.point.img+'>'
++'<img src='+event.point.img2+'>');
+*/
+				
+				//var ul = document.getElementById("slider4")
+				
+				$('#myModal').modal('show')
+				//var li = document.createElement("li");
+				//var span = document.createElement("li");				
+				 $(".slidebnm").html('<li class="bnm-1"><img src='+event.point.img+'></li>'
+								+'<li class="bnm-2"><img src='+event.point.img2+'></li>');
+			/*	 var photo = '<li><img src="http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211813364.png"></li>'
+								+'<li><img src="http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211813364.png"></li>';
+								//+'<li><img src='+event.point.img2+'></li>';
+     $('#myModal ul.rslides').html(photo);
+
+
+				//ul.appendChild(li);					
+				                     console.log(event.point.img);*/
+			
+			//});
+			}
+
+                          }
+                }
+            },
+        
+		tooltip: {
+			enabled : false
+		//	useHTML : true,
+			
+         //    footerFormat: '<span style="font-size: 10px">(Click for details)</span>'
+          //  pointFormat: '<a href="servicespage.php" >klik</a>'
         },
-
+		
         series: [{
             // Use the gb-all map with no data as a basemap
             mapData: Highcharts.maps['countries/id/id-all'],
@@ -805,7 +1134,8 @@ $(function () {
                 lon: 116.617058,
 				mining : 2000,
 				tanah : 'tandus',
-				img : 'img/1.png'
+				img : 'images/1.jpg',
+				img2 : 'images/2.jpg'
             },{
                 name: 'West Kalimantan',
                 lat: -2.739811, 
@@ -872,6 +1202,8 @@ $(function () {
             }]
         }]
     });
+
+});
 });
 </script>
 </html>
