@@ -122,16 +122,13 @@
 		</div>
 			<div class="m20"></div>
 </section>
-	<!-- Section start -->
-	<section id="testimonial" class="parallax1">
-		<div class="parallax-overlay"></div>
-			<div class="container">
-				<div class="row">
+	<section class="process">
+		<img class="img-responsive" src="images/parallax/p3.jpg" alt="">
+			<div class="parallax-overlay2"></div>
+				<div class="col-md-12"><br>
 
-				</div> <!-- row end -->
-			</div> <!-- container end -->
+			</div>
 	</section>
-	<!-- Section end -->
 	
 <section  id="sg">
 <div class="container">
@@ -145,7 +142,7 @@
 		
 	<div class="row">
 				<div class="col-md-4">
-					<img class="img-circle img-responsive col-md-8" src="img/h4.jpg" alt="gambar">
+					<img class=" img-responsive col-md-10" src="img/h4.png" alt="gambar">
 				</div>
 					<div class="col-md-8">
 						<p style="text-align:justify;">Surface geochemistry is a low-cost effective method for screening large exploration areas, prospect ranking, and development drilling in order to reduce exploration risk, localize seismic survey area and validate high-grade seismic anomalies, "Do structures contain hydrocarbons or water ?".<br>

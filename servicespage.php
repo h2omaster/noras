@@ -70,16 +70,12 @@
     </header>
 
 	<div class="m40"></div>   <br>
-		<section id="sur">
-		<div class="container">
-		
-			<div class="row">
-				<div class="col-md-12 text-center">
-						<div class="header-content">
-							<img src="img/icons.png" alt="">
-							<h3 class="big-title">Survey Division</h3>
-						</div>
-				</div>
+		<section class="row" id="sur">
+			<div class="col-md-3">
+				<img src="img/icons.png" alt="">
+				<p>Survey Division</p>
+							<div class="m40"></div>
+
 			</div>
 			<div class="col-md-11">
 				<div class="services-content text-left">
@@ -206,26 +202,22 @@
 			</section><!-- row end -->
 
 <div class="m40"></div>
-	<!-- Section start -->
-	<section id="testimonial" class="parallax1">
-		<div class="parallax-overlay"></div>
-			<div class="container">
-				<div class="row">
+	
+		<section class="process">
+				<img class="img-responsive" src="images/parallax/p2.jpg" alt="">
+		<div class="parallax-overlay2"></div>
+			<div class="col-md-12"><br>
 
-				</div> <!-- row end -->
-			</div> <!-- container end -->
+			</div>
 	</section>
-	<!-- Section end -->
+
 	
 	<section class="row" id="geo">
-		
-			<div class="row">
-				<div class="col-md-12 text-center">
-						<div class="header-content">
-							<img src="img/icons.png" alt="">
-							<h3 class="big-title">Geoscience Division</h3>
-						</div>
-				</div>
+			<div class="col-md-3">
+				<img src="img/icons.png" alt="">
+				<p>Geoscience Division</p>
+							<div class="m40"></div>
+
 			</div>
 			<div class="col-md-11">
 				<div class="services-content text-left">

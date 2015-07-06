@@ -26,6 +26,11 @@
 		margin-left:-4%;
 		}
 
+.col-md-2 > a >img {
+			width:120px;
+			}
+		
+		
 .green {
  color: rgb(139, 195, 73);
  }
@@ -35,9 +40,10 @@ text-align:justify;
 	}
 .blog-content > ul > li {
 	list-style:none;
-	line-height:1.9;
+	line-height:1,1px;
 	list-style-position:outside;
 	margin-left:-40px;
+	font-size: 13px;
 	}
 
 .blog-content > ul > li:before {
@@ -171,7 +177,7 @@ left: 10%;
 } 
 
 .icon-box > img {
-	width: 20%;
+	width: 10%;
 }
 
 .navbar-brand > img {
@@ -267,7 +273,8 @@ body, p{
 	font-family:"folio";
 	font-weight: 400; 
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 23px;
+	letter-spacing: 0.5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1739,7 +1746,7 @@ figure.effect-oscar:hover img {
 	background: url(../images/bg/bg5.jpg) fixed 50% 50%;
 }
 .parallax2{
-	background: url(../images/parallax/parallax5.jpg) fixed 50% 50%;
+	background: url(../images/parallax/parallax5.jpg) no-repeat fixed 50% 50%;
 }
 .parallax3{
 	background: url(../images/parallax/parallax2.jpg) fixed 50% 50%;
