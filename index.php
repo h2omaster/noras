@@ -28,14 +28,12 @@ $counter->initCounter();
   ================================================== -->
     <!-- Bootstrap -->
      <link href="assets/css/bootstrap.css" rel="stylesheet">
-<<<<<<< .mine
+
 	 <link rel="stylesheet" href="css/demo.css">
   
-=======
+
 	    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
-
->>>>>>> .r62
      <!-- Prettyphoto -->
 	<link rel="stylesheet" href="css/prettyPhoto.css">
     <!-- FontAwesome -->
@@ -210,7 +208,7 @@ ul.slidebnm {
     					<span class="icon-bar"></span>
     					<span class="icon-bar"></span>
     				</button>
-    				<a href="#" class="navbar-brand page-scroll"><img class="" src="img/logo.png" alt="logo"></a>
+    				<a href="index.php#home" class="navbar-brand page-scroll"><img class="" src="img/logo.png" alt="logo"></a>
     			</div> <!-- navabr-header -->
 
     			<div class="collapse navbar-collapse clearfix" id="bs-example-navbar-collapse-1" role="navigation">
@@ -244,7 +242,7 @@ ul.slidebnm {
 			<!-- Carousel inner -->
 			<div class="carousel-inner">
 			    <div class="item active">
-			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+			    	<img class="img-responsive" src="images/slider/1.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12 text-center">
                     		<div class="slider-text">
@@ -258,7 +256,7 @@ ul.slidebnm {
 			    </div><!--/ Carousel item end -->
                 
 				<div class="item ">
-			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+			    	<img class="img-responsive" src="images/slider/2.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12 text-center">
                     		<div class="slider-text">
@@ -271,7 +269,7 @@ ul.slidebnm {
 			    </div><!--/ Carousel item end -->
 				
 				<div class="item ">
-			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+			    	<img class="img-responsive" src="images/slider/3.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12 text-center">
                     		<div class="slider-text">
@@ -286,7 +284,7 @@ ul.slidebnm {
 				
 				
          		<div class="item">
-			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+			    	<img class="img-responsive" src="images/slider/4.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12 text-center">
                     		<div class="slider-text">
@@ -299,7 +297,7 @@ ul.slidebnm {
 			    </div><!--/ Carousel item end -->
 
                  <div class="item">
-			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+			    	<img class="img-responsive" src="images/slider/5.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12 text-center">
                     		<div class="slider-text">
@@ -392,15 +390,15 @@ ul.slidebnm {
 							The company was founded in 2011 by a group of professionals who had many experiences in exploration and development process of coal and minerals especially in Indonesia. PT. NORAS NUSANTARA has built an impressive team to implement this strategy. They include Exploration Team, Mining Team, and Geotechnical Environmental Team.</p>
                     
                         </div>
-						<div class="col-md-2 text-center">
+						<div class="col-md-2 col-xs-12 col-lg-2 text-center">
 							<a href="aboutus.html#about" target="_blank"><img class="btn img-responsive" src="img/w1.png" alt="icon"></a>
 							<p>Who We Are</p>
 						</div>
-						<div class="col-md-2 text-center">
+						<div class="col-md-2 col-xs-12 col-lg-2 text-center">
 							<a href="aboutus.html#mission"><img class="btn img-responsive" src="img/w2.png" alt="icon"></a>
 							<p>Our Mission</p>
 						</div>
-						<div class="col-md-2 text-center">
+						<div class="col-md-2 col-xs-12 col-lg-2 text-center">
 							<a href="aboutus.html#choose"><img class="btn img-responsive" src="img/w3.png" alt="icon"></a>
 							<p>Why choose <br> Noras Nusantara?</p>
 						</div>
@@ -610,12 +608,16 @@ We collects, processes, and interprets data related to the earth’s surface and
 					<div class="col-md-3">
 						<div class="blog-content">
 							<h4 class="blog-title">Oil and Gas industry</h4>
-							<p>- Surface Geological Mapping <br>
-							   - Geophysical Survey <br>
-							   - Surface Geochemistry <br>
-							   - Subsurface Data Analysis and Modeling <br>
-							   - Integrated Basin Study <br>
-							   - Resource and Reserve Estimation</p>
+							   <ul>
+							   
+							   <li>Surface Geological Mapping </li>
+							   <li>Geophysical Survey </li>
+							   <li>Surface Geochemistry </li>
+							   <li>Subsurface Data Analysis and Modeling</li>
+							   <li>Integrated Basin Study</li>
+							   <li>Resource and Reserve Estimation</li>
+							   
+							   </ul>
 						</div>
 					</div>
 					<div class="col-md-1 wow fadeInUp" data-wow-delay=".2s">
@@ -629,17 +631,17 @@ We collects, processes, and interprets data related to the earth’s surface and
 					<div class="col-md-3">
 						<div class="blog-content">
 							<h4 class="blog-title">Mining Industry</h4>
-							
-							<p>	- Industry <br>
-								- Surface Geological mapping<br>
-								- Geodetical Survey<br>
-								- Drilling and Geophysical Logging<br>
-								- Surface Geophysical Survey<br>
-								- Resource and Reserve Estimation<br>
-								- Environmental Study<br>
-								- Feasibility Study<br>
-								- Mine Planing and Design<br>
-                           </p>
+							<ul>
+							<li>Industry </li>
+							<li>Surface Geological mapping</li>
+							<li>Geodetical Survey </li>
+							<li>Drilling and Geophysical Logging</li>
+								<li>Surface Geophysical Survey</li>
+								<li>Resource and Reserve Estimation</li>
+								<li>Environmental Study</li>
+								<li>Feasibility Study</li>
+								<li>Mine Planing and Design</li>
+                           </ul>
 						</div>
 					</div>
 					<div class="col-md-1 wow fadeInUp" data-wow-delay=".2s">
@@ -653,12 +655,13 @@ We collects, processes, and interprets data related to the earth’s surface and
 					<div class="col-md-3">
 						<div class="blog-content">
 							<h4 class="blog-title">Water and Geotechnical <br>industry</h4>
-							<p>	- Geotechnical Investigation<br>
-								- Slope Stability Analysis<br>
-								- Open Pit Design<br>
-								- Solid Foundation Analysis<br>
-								- Hydrology and Hydrogeology Analysis<br>
-                           </p>
+							<ul>
+								<li>Geotechnical Investigation</li>
+								<li>Slope Stability Analysis</li>
+								<li>Open Pit Design</li>
+								<li>Solid Foundation Analysis</li>
+								<li>Hydrology and Hydrogeology Analysis</li>
+                           </ul>
 						</div>
 					</div>
 			</div><!-- row end -->
@@ -666,15 +669,16 @@ We collects, processes, and interprets data related to the earth’s surface and
             <p> Our approach is straightforward. The best people, combined with the innovative application of leading edge ideas and technology. Noras nusantara provides a unique range of services and activities, mostly in Indonesia, these are organized in two divisions of each business segments: Geoscience and Survey.</p>
 			<div class="container-fluid">
 				<div class="col-md-12">
+						<div class="col-md-1"></div>
 						<div class="col-md-4">
                         <a class="btn" href="servicespage.php#sur"><img src="images/btn3.png"></a>
                         </div>
-						<div class="col-md-2"></div>
                         <div class="col-md-4">
                         <a class="btn" href="servicespage.php#geo"><img src="images/btn4.png"></a>
                         </div>
 						</div>
 						</div>
+						<div class="m40"></div>
 		</div> <!-- container end -->
         
 	</section>
@@ -919,6 +923,7 @@ We collects, processes, and interprets data related to the earth’s surface and
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/2.2.2/proj4.js"></script>
 	
 	<script src="js/highmaps.js"></script>
+	<script src="js/indonesia.js"></script>
 	
 	<script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
 	
