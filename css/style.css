@@ -18,6 +18,19 @@
 /* Global styles
 ================================================== */
 
+iframe {
+width:900;
+height:350;
+border:none;
+margin-top:-20px
+}
+
+
+.service-content > .col-md-7 {
+	margin-left: -20px;
+	}
+
+
 #sg {
 	margin-left: 7%;
 	}
@@ -109,7 +122,7 @@ margin-top: 20px;
 	margin-top:70px;
 	}
 	
-.col-md-2 > a >img:hover{
+.col-md-1 >.col-md-4 > a >img:hover{
  background : rgba(0, 0, 0, 0.5);
   border-radius : 13px;
   -moz-border-radius : 13px;
@@ -144,7 +157,7 @@ margin-top: 20px;
 	}
 
 .container-fluid > .col-md-12, .row > .col-md-3 {
-	left:50%;
+	left:54%;
 	transform:translateX(-51%);
 }
 
@@ -588,7 +601,7 @@ h5{
 }
 /*carousel slider*/
 #main-slide .carousel-indicators{
-	top: 20%;
+	top: 10%;
 	height: 30px;
 }
 .carousel-indicators li{
@@ -1331,7 +1344,7 @@ figure.effect-oscar:hover img {
 	bottom: 0;
 	z-index: 2;
 	background: rgba(0,0,0,.7);
-	padding: 25px 30px;
+	padding:10px 20px;
 	max-width: 400px;
 	max-height: 400px;
 	text-align: left;

@@ -214,7 +214,7 @@
 	
 	<section class="row" id="geo">
 			<div class="col-md-3">
-				<img src="img/icons.png" alt="">
+				<img src="img/icons2.png" alt="">
 				<p>Geoscience Division</p>
 							<div class="m40"></div>
 

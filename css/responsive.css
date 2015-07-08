@@ -3,13 +3,19 @@
 
 /* Large Devices, Wide Screens */
 @media (min-width : 1200px) {
-	
+	.modal-dialog {
+	height: 45%
+	}
 
 }
 
 
 /* Medium Devices, Desktops */
 @media (min-width : 992px) and (max-width: 2400px) {
+.modal-dialog {
+	height: 40%
+	}
+	
 .navbar-brand > img {
 	width: 38%;
 	}
@@ -31,8 +37,8 @@
 /*SLider
 ==========================================================*/
 #slider{
-	padding-top: 0;
-	height: 650px;
+	padding-top: 50;
+	height: 850px;
 }
 .slider-content h5:after{
 	/*left: 8px;*/
@@ -42,7 +48,6 @@
 .slider-content h5:before{
 	left: 10px;
 }
-
 
 /*PROFILE
 ============================================*/
@@ -55,6 +60,10 @@
 
 /* Small Devices, Tablets */
 @media (min-width : 768px) and (max-width: 991px) {
+.modal-dialog {
+	height: 20%
+	}
+
 .navbar-brand > img {
 	margin-top: -15px;
 	width: 38%;
@@ -91,7 +100,7 @@
 ===========================*/
 
 #slider{
-	margin-top: 0;
+	margin-top: 10px;
 	height: 350px;
 }
 .slider-content {
@@ -223,20 +232,42 @@
 
 /* Small Devices Potrait */
 @media (max-width : 767px){
-	
+	.modal-dialog {
+	height: 20%
+	}
 	
 }
 
 /* Extra Small Devices, Phones */ 
 @media (max-width : 479px) {
+.modal-dialog {
+	max-height: 500px;
+	}
+	
+	.modal-dialog {
+	height: 20%
+	}
 
-		
+.col-lg-4 > iframe {
+width:1%
+}
 
 }
 @media (min-width: 240px) and (max-width: 388px)  {
+.modal-dialog {
+	height: 20%
+	}
+	
 .navbar-brand > img {
 	margin-top: -55px;
 	width: 38%;
+	}
+	
+
+.container-fluid > .col-md-12, .row > .col-md-3 {
+    left: 30%;
+    transform: translateX(-51%);
+	}
 	}
 /*MENU
 ======================================*/
@@ -251,18 +282,19 @@
 ===============================*/
 
 #slider{
-	margin-top: 70px;
-	height: 240px;
+	margin-top: 50px;
+	height: 650px;
 }
 .slider-content {
 	padding-bottom: 20px;
+	top: 30%;
 }
 .slider-content h2 {
-    font-size: 22px;
-    line-height: 0px;
+    font-size: 35px;
+    line-height: 30px;
 }
 .slider-content h3{
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 16px;
 }
 
@@ -285,7 +317,6 @@
 .slider-content h5:before,.slider-content h5:after{
 	display: none;
 }
-
 /*CAROUSEL CONTROLS
 =================================*/
 .carousel-control i {
@@ -414,14 +445,14 @@
 ===============================*/
 
 #slider{
-	margin-top: 50px;
+	margin-top: 60px;
 	height: 260px;
 }
 .slider-content {
 	padding-bottom: 20px;
 }
 .slider-content h2 {
-    font-size: 22px;
+    font-size: 12px;
     line-height: 0px;
 }
 .slider-content h3{
