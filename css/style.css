@@ -18,6 +18,11 @@
 /* Global styles
 ================================================== */
 
+
+.m10 {
+margin: 10px 0px;
+}
+
 iframe {
 width:900;
 height:350;
@@ -1341,14 +1346,13 @@ figure.effect-oscar:hover img {
 	position: absolute;
 	color: #fff;
 	top: 0;
-	bottom: 0;
 	z-index: 2;
 	background: rgba(0,0,0,.7);
-	padding:10px 20px;
-	max-width: 400px;
+	padding:5px 10px;
+	max-width: 570px;
 	max-height: 400px;
 	text-align: left;
-	right: 70px;
+	right: 0px;
 }
 
 .contact-info-inner p{

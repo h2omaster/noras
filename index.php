@@ -647,26 +647,44 @@ We collects, processes, and interprets data related to the earth’s surface and
 	
 	<!-- Map start here -->
 	<section id="map-wrapper" class="no-padding ">
-		<div class="container ">
-			<div class="contact-info-inner wow fadeInUp col-md-3">
-    			<h3>Contact Info</h3>
-	    		<div><i class="fa fa-map-marker pull-left"></i>  
-	    			<p><strong>Address</strong>GREENHUB @ 88KASABLANKA Level 38, Tower A, Kota Kasablanka Jl. Casablanca Raya Kav 88 Jakarta, 12870</p>
+		<div class="row ">
+			<div class="contact-info-inner wow fadeInUp col-md-8">
+    			<h4>Contact Info</h4>
+	    		<div><i class="fa fa-map-marker pull-left hidden-xs"></i>  
+	    			<p><strong>Address Head Office</strong>GREENHUB @ 88KASABLANKA Level 38, Tower A, Kota Kasablanka Jl. Casablanca Raya Kav 88 Jakarta, 12870</p>
+
 	    		</div>
+				<div><i class="fa fa-map-marker pull-left "></i>
+									<p><strong>Workstation</strong>
+Jl.Tebet Timur III B No.17
+Jakarta Selatan, 12820</p>
+</div>
+				<div class="container-fluid hidden-xs">
+				
 	    		<div><i class="fa fa-phone pull-left"></i>  
-	    			<p><strong>Phone</strong>(62) 21 829 04880 </p>
+	    			<p  class="col-md-4 col-xs-12"><strong>Phone</strong>(+62) 21 829 0480 </p>
 	    		</div>
-	    		<div><i class="fa fa-envelope-o pull-left"></i>  
+				<div ><i class="fa fa-fax pull-left "></i>
+					<p  class="col-md-4 col-xs-12" ><strong>Fax</strong>(+62) 21 829 0480 </p>
+				</div>
+				</div>
+				
+				<div class="visible-xs"><i class="fa fa-phone pull-left"></i>  
+	    			<p ><strong>Phone</strong>(+62) 21 829 0480 </p>
+	    		</div>
+				<div class="visible-xs"><i class="fa fa-fax pull-left "></i>
+					<p ><strong>Fax</strong>(+62) 21 829 0480 </p>
+				</div>
+
+				
+	    		<div><i class="fa fa-envelope-o pull-left "></i>  
 	    			<p><strong>Email</strong>noras@norasnusantara.com</p>
-	    		</div>
-	    		<div><i class="fa fa-compass pull-left"></i>  
-	    			<p><strong>Office Hours</strong>Mon - Friday, 9:00 - 5:00</p>
 	    		</div>
 
 			</div>
-	   <div class="m20" id="map"></div>
+	   <div class="m10" id="map"></div>
 		<div class="col-lg-4 img-responsive" >
-      	<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d247.85946621153676!2d106.789348!3d-6.296357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s53+Jl.+Lebak+Bulus+Raya+I!5e0!3m2!1sid!2s!4v1426960795778" >
+      	<iframe class="hidden-xs" id="i1" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d247.85946621153676!2d106.789348!3d-6.296357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s53+Jl.+Lebak+Bulus+Raya+I!5e0!3m2!1sid!2s!4v1426960795778" >
 		</iframe>
 
       </div>
@@ -693,7 +711,7 @@ We collects, processes, and interprets data related to the earth’s surface and
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="copyright-info m20">
-         			 &copy; Copyright 2015 Kenji. <span>Designed &amp; developed by- <a href="https://github.com/gunawan92" target="_blank">Front Gun</a></span>
+         			 &copy; Copyright 2015 Kenji. <span>Designed &amp; developed by- <a href="https://github.com/gunawan92" target="_blank">Kenji Studio</a></span>
         			</div>
 				</div>
 			</div><!--/ Row end -->
