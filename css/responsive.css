@@ -4,7 +4,18 @@
 line-height: 29px;}
 
 /* Large Devices, Wide Screens */
-@media (min-width : 2400px) {
+@media (min-width : 2100px) {
+
+#i1 {
+	width: 100%;
+	}
+
+.fixedG2,.fixedG,.fixedG3, .parllax1, .parallax5, .parallax3{
+	background-size:100%;
+	}
+
+
+
 	.modal-dialog {
 	height: 45%
 	}
@@ -13,7 +24,14 @@ line-height: 29px;}
 
 
 /* Medium Devices, Desktops */
-@media (min-width : 992px) and (max-width: 1200px) {
+@media (min-width : 992px) and (max-width: 1443px) {
+
+.fixedG2,.fixedG,.fixedG3, .parallax1, .parallax5, .parallax3 {
+	background-size:100%;
+	}
+
+
+
 .modal-dialog {
 	height: 40%
 	}
@@ -357,6 +375,14 @@ width:1%
 }
 @media (min-width: 310px) and (max-width: 479px)  {
 
+.fixedG2,.fixedG,.fixedG3, .parallax1 , .parallax5, .parallax3{
+	background-size:100%;
+	}
+
+#process2 {
+	    padding:30px 0px 10px;
+}
+
 #footer {
 	margin-top: 350px;
 	}
@@ -408,7 +434,7 @@ width:1%
     left: 0px ;
 	}
 	.parallax-overlay2 {
-	height : 70px;
+	height : 100%;
 	}
 .col-md-5 > img {
 	margin-left: 1%;

@@ -203,8 +203,7 @@
 
 <div class="m40"></div>
 	
-		<section class="process">
-				<img class="img-responsive" src="images/parallax/p2.jpg" alt="">
+		<section id="process2" class="process2 fixedG3">
 		<div class="parallax-overlay2"></div>
 			<div class="col-md-12"><br>
 
@@ -305,8 +304,6 @@
 							<li><a href="#"><i class="fa fa-twitter wow fadeInLeft" data-wow-delay=".4s"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus wow fadeInLeft" data-wow-delay=".6s"></i></a></li>
 							<li><a href="#"><i class="fa fa-linkedin wow fadeInLeft" data-wow-delay=".8s"></i></a></li>
-							<li><a href="#"><i class="fa fa-dribbble wow fadeInLeft" data-wow-delay="1s"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss wow fadeInLeft" data-wow-delay="1.1s"></i></a></li>
 						</ul>
 					</div>
 				</div>

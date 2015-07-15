@@ -69,7 +69,7 @@ $counter->initCounter();
     
     <!-- main coding strat -->
     <header id="header" >
-    	<nav class="navbar navbar-default navbar-fixed-top"  id="tf-menu">
+    	<nav class="navbar navbar-default navbar-fixed-top" id="tf-menu">
     	<div class="container">
     		<div class="row">
     			<div class="navbar-header ">
@@ -102,11 +102,11 @@ $counter->initCounter();
 		<div id="main-slide" class="carousel slide" data-ride="carousel">
 			<!-- Indicators -->
 			<ol class="carousel-indicators visible-lg visible-md">
-			  	<li data-target="#main-slide" data-slide-to="0" class="active"></li>
-			    <li data-target="#main-slide" data-slide-to="1"></li>
+			  	<li data-target="#main-slide" data-slide-to="1" class="active"></li>
 			    <li data-target="#main-slide" data-slide-to="2"></li>
-				<li data-target="#main-slide" data-slide-to="3"></li>
-           	    <li data-target="#main-slide" data-slide-to="4"></li>
+			    <li data-target="#main-slide" data-slide-to="3"></li>
+				<li data-target="#main-slide" data-slide-to="4"></li>
+           	    <li data-target="#main-slide" data-slide-to="5"></li>
 
 			</ol><!--/ Indicators end-->
 			
@@ -116,12 +116,6 @@ $counter->initCounter();
 			    	<img class="img-responsive" src="images/slider/1.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12">
-                    		<div class="slider-text">
-	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
-	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
-	                        	<h5 class="animated7">lets introduce</h5>
-
-                        	</div>
                     	</div>
                     </div>
 			    </div><!--/ Carousel item end -->
@@ -130,11 +124,6 @@ $counter->initCounter();
 			    	<img class="img-responsive" src="images/slider/2.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12">
-                    		<div class="slider-text">
-	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
-	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
-	                        	<h5 class="animated7">lets introduce</h5>
-                        	</div>
                     	</div>
                     </div>
 			    </div><!--/ Carousel item end -->
@@ -143,81 +132,26 @@ $counter->initCounter();
 			    	<img class="img-responsive" src="images/slider/3.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12">
-                    		<div class="slider-text">
-	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
-	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
-	                        	<h5 class="animated7">lets introduce</h5>
-                        	</div>
                     	</div>
                     </div>
 			    </div><!--/ Carousel item end -->
-				
-				
 				
          		<div class="item">
 			    	<img class="img-responsive" src="images/slider/4.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12">
-                    		<div class="slider-text">
-	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
-	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
-	                        	<h5 class="animated7">lets introduce</h5>
-                        	</div>
                     	</div>
                     </div>
 			    </div><!--/ Carousel item end -->
-
                  <div class="item">
 			    	<img class="img-responsive" src="images/slider/5.jpg" alt="slider">
                     <div class="slider-content">
                     	<div class="col-md-12">
-                    		<div class="slider-text">
-	                        	<h2 class="animated7">Welcome to Noras Nusantara </h2>
-	                        	<h3 class="animated7">We are your ultimate choice to lead a way</h3>
-	                        	<h5 class="animated7">lets introduce</h5>
-                        	</div>
                     	</div>
                     </div>
 			    </div><!--/ Carousel item end -->
 	
 
-			    <div class="item">
-			    	<img class="img-responsive" src="images/slider/bg42.jpg" alt="slider">
-                    <div class="slider-content">
-                        <div class="col-md-12">
-                            <h2 class="animated7"> We are Noras Nusantara</h2>
-                            <h3 class="animated7">About continous Help</h3>	
-                            <h5 class="animated7">lets introduce</h5>
-                        </div>
-                    </div>
-			    </div><!--/ Carousel item end -->
-			    
-			    <div class="item">
-			    	<img class="img-responsive" src="images/slider/bg23.jpg" alt="slider">
-                    <div class="slider-content">
-                    	<div class="col-md-12">
-                    		<div class="slider-text">
-	                        	<h2 class="animated7">We Offer our Clients</h2>
-	                        	<h3 class="animated7">An Expert level service</h3>
-                        	</div>
-	                        <div class="slider-smalltext">
-	                        	<div class="slider-small-text-content">
-	                        		<h4 class="animated7" data-wow-delay=".5s">
-	                        			A Fresh Approch /
-	                        		</h4>
-		                        	<h4 class="animated7" data-wow-delay=".7s">
-		                        		 Proper Value of Money /
-		                        	</h4>
-		                        	<h4 class="animated7" data-wow-delay="1.1s">
-		                        		 Right Solution /
-		                        	</h4>
-		                        	<h4 class="animated7" data-wow-delay="1.3s">
-		                        		Taking Time to Care
-		                        	</h4>
-	                        	</div>
-	                        </div>
-                    	</div>
-                    </div>
 			    </div><!--/ Carousel item end -->
 			</div><!-- Carousel inner end-->
 			<a class="left carousel-control" href="#main-slide" data-slide="prev">
@@ -283,7 +217,7 @@ $counter->initCounter();
 	</section>
 	<!-- Work process start -->
 	
-	<section id="testimonial" class="parallax1">
+	<section id="testimonial" class="parallax2">
 		
 			<div class="parallax-overlay2"></div>
 			
@@ -531,13 +465,15 @@ We collects, processes, and interprets data related to the earth’s surface and
 										<div class="modal-content col-md-12">
 													<div class="modal-header">
 														<button type="button" class="close" data-dismiss="modal">&times;</button>
-															<h4 class="modal-title">Modal Header</h4>
+															<h4 class="modal-title">Documentation</h4>
 													</div>
 										<div class="modal-body">
 											<div class="ask">
 											<input type="radio" name="slidebnm" class="radio-nav" id="nav-1" checked/>
 											<input type="radio" name="slidebnm" class="radio-nav" id="nav-2"/>
 											<input type="radio" name="slidebnm" class="radio-nav" id="nav-3"/>
+											<input type="radio" name="slidebnm" class="radio-nav" id="nav-4"/>
+											<input type="radio" name="slidebnm" class="radio-nav" id="nav-5"/>
 												<ul class="slidebnm img-responsive">
 		
 												</ul>
@@ -546,11 +482,18 @@ We collects, processes, and interprets data related to the earth’s surface and
 													<label class="nav-1" for="nav-1">></label>
 													<label class="nav-2" for="nav-2">></label>
 													<label class="nav-3" for="nav-3">></label>
+													<label class="nav-4" for="nav-4">></label>
+													<label class="nav-5" for="nav-5">></label>
+
 												</div>
 												<div class="nav-arrow nav-prev">
-													<label class="nav-1" for="nav-1"><</label>
-													<label class="nav-2" for="nav-2"><</label>
+													<label class="nav-5" for="nav-5"><</label>
+													<label class="nav-4" for="nav-4"><</label>
 													<label class="nav-3" for="nav-3"><</label>
+													<label class="nav-2" for="nav-2">></label>
+													<label class="nav-1" for="nav-1">></label>
+													
+													
 												</div>
 											</div>
 										</div>
@@ -648,7 +591,7 @@ We collects, processes, and interprets data related to the earth’s surface and
 	<!-- Map start here -->
 	<section id="map-wrapper" class="no-padding ">
 		<div class="row ">
-			<div class="contact-info-inner wow fadeInUp col-md-8">
+			<div class="contact-info-inner wow fadeInUp col-md-12">
     			<h4>Contact Info</h4>
 	    		<div><i class="fa fa-map-marker pull-left hidden-xs"></i>  
 	    			<p><strong>Address Head Office</strong>GREENHUB @ 88KASABLANKA Level 38, Tower A, Kota Kasablanka Jl. Casablanca Raya Kav 88 Jakarta, 12870</p>
@@ -683,8 +626,8 @@ Jakarta Selatan, 12820</p>
 
 			</div>
 	   <div class="m10" id="map"></div>
-		<div class="col-lg-4 img-responsive" >
-      	<iframe class="hidden-xs" id="i1" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d247.85946621153676!2d106.789348!3d-6.296357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s53+Jl.+Lebak+Bulus+Raya+I!5e0!3m2!1sid!2s!4v1426960795778" >
+		<div class=".Flexible-container">
+      	<iframe class="hidden-xs" id="i1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.218345476125!2d106.842568!3d-6.22351!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaf54cb631563acce!2sKota+Kasablanka!5e0!3m2!1sen!2sus!4v1436879856142" width="600" height="450" frameborder="0" style="border:0" allowfullscreen" >
 		</iframe>
 
       </div>
@@ -702,8 +645,6 @@ Jakarta Selatan, 12820</p>
 							<li><a href="https://twitter.com/norasnusantara/"><i class="fa fa-twitter wow fadeInLeft" data-wow-delay=".4s"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus wow fadeInLeft" data-wow-delay=".6s"></i></a></li>
 							<li><a href="#"><i class="fa fa-linkedin wow fadeInLeft" data-wow-delay=".8s"></i></a></li>
-							<li><a href="#"><i class="fa fa-dribbble wow fadeInLeft" data-wow-delay="1s"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss wow fadeInLeft" data-wow-delay="1.1s"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -711,7 +652,7 @@ Jakarta Selatan, 12820</p>
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="copyright-info m20">
-         			 &copy; Copyright 2015 Kenji. <span>Designed &amp; developed by- <a href="https://github.com/gunawan92" target="_blank">Kenji Studio</a></span>
+         			 &copy; Copyright 2015 Kenji. <span>Designed &amp; developed by- <a href="https://sikenji.com" target="_blank">Kenji Studio</a></span>
         			</div>
 				</div>
 			</div><!--/ Row end -->
@@ -828,6 +769,9 @@ d1.insertAdjacentHTML('afterend', '<img src='+event.point.img+'>'
 				 $(".slidebnm").html('<li class="bnm-1"><img src='+event.point.img+'></li>'
 								+'<li class="bnm-2"><img src='+event.point.img2+'></li>'
 								+'<li class="bnm-3"><img src='+event.point.img3+'></li>'
+								+'<li class="bnm-4"><img src='+event.point.img4+'></li>'
+								+'<li class="bnm-5"><img src='+event.point.img5+'></li>'
+
 								);
 			/*	 var photo = '<li><img src="http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211813364.png"></li>'
 								+'<li><img src="http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211813364.png"></li>';
@@ -879,9 +823,12 @@ d1.insertAdjacentHTML('afterend', '<img src='+event.point.img+'>'
                 lon: 102.400691,
 				mining : 2000,
 				tanah : 'tandus',
-				img  : 'images/1.jpg',
-				img2 : 'images/2.jpg',
-				img3 : 'images/3.jpg'
+				img  : 'images/work/ABP2014/1.jpg',
+				img2 : 'images/work/ABP2014/2.jpg',
+				img3 : 'images/work/ABP2014/3.jpg',
+				img4 : 'images/work/ABP2014/4.jpg',
+				img5 : 'images/work/ABP2014/5.jpg'
+
             },{
                 name: 'Pendopo, Muara Enim, South Sumatera',
                 lat: -3.639138,

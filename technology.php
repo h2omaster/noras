@@ -122,8 +122,7 @@
 		</div>
 			<div class="m20"></div>
 </section>
-	<section class="process">
-		<img class="img-responsive" src="images/parallax/p3.jpg" alt="">
+	<section id="process2" class="process parallax3">
 			<div class="parallax-overlay2"></div>
 				<div class="col-md-12"><br>
 
